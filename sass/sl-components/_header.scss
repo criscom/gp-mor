@@ -1,0 +1,33 @@
+/* CSS code for the header section
+** added by criscom
+** on all pages
+** different header heights for frontpage and other pages
+** no drupal logo in use
+*/
+
+
+header.header {
+    background-color: $header-color;
+    @include border-top-radius(4px);
+    padding: 8px 0 0 0;
+    padding: 0.5rem 0 0 0;
+
+}
+
+.header__site-link {
+    &:hover {
+        text-decoration: none;
+        color: white;
+    }
+    span {
+    font-family: $opensans;
+    font-size: 1.5 * $h1-font-size;
+    @extend %bold-font-weight;
+    padding-left: 16px;
+    padding-left: 1rem;
+    @include breakpoint($range0-480) {
+        font-size: $h1-font-size;
+    }
+
+    }
+}
