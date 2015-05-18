@@ -50,19 +50,6 @@
                 float: none;
                 width: 100%;
             }
-        .pane-block {
-            // margin-left: 2%;
-            padding: 8px 0;
-            padding: .5rem 0;
-            background-color: $header-color;
-            @include border-radius(4px);
-            @include breakpoint($iphone5-6)
-                {
-                float: none;
-                width: 100%;
-                margin-left: 0 !important;
-                }
-        }
     }
     .panel-col-last {
         @extend %base-background;
@@ -74,18 +61,18 @@
             width: 100%;
             margin-left: 0;
         }
-        .panel-pane {
-            .node-page.view-mode-view_mode_4 {
-                padding: 8px 0;
-                padding: .5rem 0;
-                background-color: $header-color;
-                @include border-radius(4px);
-                p {
-                    margin-top: 0;
-                    text-align: center;
-                    background-color: $breadcrumb-bg;
+        .pane-block {
+            // margin-left: 2%;
+            padding: 8px 0;
+            padding: .5rem 0;
+            background-color: white; //$header-color;
+            @include border-radius(4px);
+            @include breakpoint($iphone5-6)
+                {
+                float: none;
+                width: 100%;
+                margin-left: 0 !important;
                 }
-            }
         }
     }
 }

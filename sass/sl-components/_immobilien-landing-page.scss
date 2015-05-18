@@ -6,7 +6,7 @@
 */
 
 
-.page-mietwohnungen .panel-2col-stacked
+.page-mietflaechen .panel-2col-stacked
 {
     h2.pane-title {
         text-align: center;
@@ -96,7 +96,7 @@ h2.wohnung
     }
 }
 
-.page-mietwohnungen .panel-2col-stacked
+.page-mietflaechen .panel-2col-stacked
 {
     .center-wrapper .view .view-content
     {
@@ -134,6 +134,7 @@ h2.wohnung
                     margin-right: 1rem;
                 }
             }
+            .flaeche,
             .wohnungsdetails,
             .verfuegbarkeit {
                 text-align: center;

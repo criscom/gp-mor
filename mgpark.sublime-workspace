@@ -1,0 +1,775 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"username"
+			],
+			[
+				"dat",
+				"database"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"l",
+				"list-style"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"mx",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"mato",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"f",
+				"first-child"
+			],
+			[
+				"lis",
+				"list-style-image"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"75",
+				"75rem"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fs",
+				"font-size"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"gray",
+				"grayborder"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"fos",
+				"font-size"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"tex-",
+				"text-indent"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bg",
+				"background"
+			],
+			[
+				"backc",
+				"background-color"
+			],
+			[
+				"pre",
+				"pre-wrap"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"color",
+				"color1"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"bod",
+				"border"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"slid",
+				"slider-icons"
+			],
+			[
+				"borderr",
+				"border-radius"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"a",
+				"after"
+			],
+			[
+				"the",
+				"thead	Tag"
+			],
+			[
+				"colo",
+				"color2"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"col",
+				"color2"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 1161,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"gi",
+				"Gist: Insert Gist"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"packcontrolin",
+				"Package Control: Install Package"
+			],
+			[
+				"packconinst",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/drupalmaster2014-mgpark.at"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/nachhaltigebeschaffung_20140901/sites/default/settings.php",
+		"/Applications/MAMP/htdocs/pedersenandpartners-20140901/sites/all/themes/einstern_2014/css/custom.css",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_placeholders.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_teamviews-minwidth0-767.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_minwidth480-567.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/20140812diff.txt",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_minwidth980-1199.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/css/custom.css",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_minwidth0-480.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_teamview-minwidth0-767.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_minwidth569-767.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_minwidth569-767px.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_minwidth569-767px",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/html/submit-your-cv-follow-us-inline-buttons.html",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_init.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/html/frontpage-slider-section-consultant-latest-news-newsletter-after-changes.html",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/html/frontpage-slider-section-latest-news2-consultant-before-changes.html",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/custom.scss",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/.gitignore",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/sass/_normalize.scss",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/F892947A-15AB-4BA1-B88B-CF451F6A15BA/sites.php",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/DE6198AE-270F-48E3-9A11-D01349CB3C2A/contactuslandingpage.css",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/D6979A68-F7B0-45CA-9B20-3E4552662C22/template.js",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/html/dropdown-menu.html",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/2D6C81D3-0F91-40F2-BE22-F02570C7F542/views-view--press-frontpage--block-3.tpl.php",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/2D410C2B-F024-4374-957A-2D0E572A7134/script.js",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/FAAA1CAC-CD9B-4DD4-8B7F-E014AD419BD8/views-view--frontpage-consultant-spotlight.tpl.php",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/F61E9D77-D10B-4785-B91E-52D3757651F6/script.js",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/DC9384A4-6ACF-412E-9A89-CB5694F17A25/template.js",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/CF0C1931-3033-466D-8B3C-31CE6626B14B/node--view--press-frontpage.tpl.php",
+		"/Applications/MAMP/htdocs/pedersenandpartners-RELAUNCH-20140715/css/styles.css",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/B1B4DBDD-BDAE-44D3-8EE1-19B095667601/html.tpl.php",
+		"/Applications/MAMP/htdocs/pedersenandpartners-PGE/css/homepage.css",
+		"/Applications/MAMP/htdocs/pedersenandpartners-PGE/config.rb",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/929D738A-9DA4-4CEE-AB03-F02F495F86DE/criscom.css",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/7A5E2F03-BD55-4CCF-ACDA-91E679664281/head.phtml",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/0F713EC3-67E1-414A-AB77-9C6EED2581F6/local.xml",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/B8B3B294-6990-489C-BF2C-A279C21E8A83/view.phtml",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/73D91F01-518C-4CD3-882F-CA389D97090D/translate.csv",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/FDFE5CC1-3217-45DC-B5AB-137DB13DFC41/override.css",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/278FA2AB-E84A-4A41-A743-12538691447F/view.phtml",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/7EC2EE58-4299-463B-8D02-F80C85FF871B/Compare.php",
+		"/Users/cpotzinger/Documents/Einstern/PROJEKTE/Aktive Projekte/paperwhite-studios pilcrow-studios.com/2014-04-29-antonzimmermann/AntonZimmermann Website 2 Folder/webshop/home page banners backup.html",
+		"/Users/cpotzinger/Documents/Einstern/PROJEKTE/Aktive Projekte/paperwhite-studios pilcrow-studios.com/2014-04-29-antonzimmermann/AntonZimmermann Website 2 Folder/webshop/home page right column.html",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/9188AAB9-EC95-4B43-8F0C-110DE395FD00/override.css",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/3597A277-3AAC-475D-A8CC-88C002455D54/hide_sticky_promote.module",
+		"/Users/cpotzinger/Library/Caches/Cleanup At Startup/Transmit/A336BC1E-BB17-4A4B-9CEB-433DF0F623B4/custom.css",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/layouts/default-master.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/layouts/default-carousel.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/layouts/default-content.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/partials/LeftAndRightCarousel.html",
+		"/Users/cpotzinger/Documents/Einstern/PROJEKTE/Aktive Projekte/pedersen/2014support-contract/2040530-world-map-http.html",
+		"/Users/cpotzinger/Documents/Einstern/PROJEKTE/Aktive Projekte/pedersen/2014support-contract/2040530-world-map-http",
+		"/Users/cpotzinger/Downloads/bootstrap-3.1.1/docs/examples/carousel/index.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/partials/carousel.html",
+		"/Users/cpotzinger/Downloads/test-2.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/partials/LeftAndRight.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/layouts/default.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/layouts/default-full-width-nav.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/.sass-cache/81e16efb706b295c96bede04da58f28387b18ac4/_inline-block.scssc",
+		"/Applications/MAMP/htdocs/shapetec/private/assets/css/docs.min.css",
+		"/Users/cpotzinger/Documents/Einstern/PROJEKTE/Aktive Projekte/kornferry/about-us-page-20140523.html",
+		"/Users/cpotzinger/Documents/Einstern/PROJEKTE/Aktive Projekte/kornferry/about-us-block-20140523.html",
+		"/Users/cpotzinger/Downloads/bootstrap-3.1.1/docs/examples/navbar-static-top/index.html",
+		"/Users/cpotzinger/Downloads/bootstrap-3.1.1/docs/examples/sticky-footer/index.html",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/css/custom.css",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/css/navbar-static-top.css",
+		"/Applications/MAMP/htdocs/shapetec/shapetec.cs",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/layouts/index.php",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/sass/_init.scss",
+		"/Applications/MAMP/htdocs/shapetec/private/templates/sass/_custom.scss",
+		"/Users/cpotzinger/Downloads/tp1-clemens.csv",
+		"/Users/cpotzinger/Downloads/bootstrap-3.1.1/docs/examples/navbar/index.html",
+		"/Users/cpotzinger/Downloads/bootstrap-3.1.1/docs/examples/theme/index.html",
+		"/Users/cpotzinger/Library/Application Support/Sublime Text 3/Packages/User/MacTerminal.sublime-settings",
+		"/Users/cpotzinger/Library/Application Support/Sublime Text 3/Packages/MacTerminal/Default.sublime-keymap",
+		"/Users/cpotzinger/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".panels-flexible-1",
+			"padding-left: 0;",
+			".panels-flexible-region-inside-first",
+			".panels-flexible-region-inside",
+			"aktuelles",
+			"news",
+			".field-name-body",
+			".block-pedersenandpartners-mobile-navigation",
+			"practice group",
+			"footer",
+			"iframe",
+			"services",
+			"newsletter",
+			"news",
+			"body.node-type-offices .view-office-team-members .views-row",
+			"		// .views-row-3,\n		// .views-row-6,\n		// .views-row-9,\n		// .views-row-12,\n		// .views-row-15 {\n		// 	margin-right: 0;\n		// }",
+			"margin-right: 2%;",
+			"margin-right: 2px;",
+			"margin-right: 2%;",
+			"row",
+			"blocks",
+			".region-sidebar-right",
+			".region-sidebar-left",
+			"news",
+			"image",
+			"read-more",
+			"</label>*",
+			"colspan=\"5\"",
+			"span class=\"xspTextLabel\"",
+			"<td colspan=\"3\"><span role=\"alert\"></span></td>",
+			"class=\"label",
+			"label",
+			"div",
+			"content:",
+			"content: \"-\";",
+			"content: \"",
+			"content: \"-\";",
+			"event",
+			"group-date-time-wrapper-events",
+			"body.page-events-all",
+			".node-article",
+			"news",
+			"top",
+			"btn",
+			".btn ",
+			".btn",
+			".btn-warning",
+			"practice group",
+			"style=\"color:#ff8c00;\"",
+			"</span>",
+			"<span style=\"color:#000080;\">",
+			"<span style=\"font-family:verdana,geneva,sans-serif;\">",
+			"<span style=\"font-size:12px;\">",
+			"news",
+			"</span>",
+			"newsletter",
+			".chrome.win &",
+			"main menu",
+			"city",
+			"team",
+			"button",
+			"sidebar",
+			"button",
+			"sidebar",
+			"button",
+			"358px",
+			"main menu",
+			"px;",
+			"class=\"rtejustify\"",
+			"class=\"rtecenter\"",
+			"class=\"rtejustify\"",
+			"date",
+			"h4",
+			"search",
+			"main menu",
+			"block-views-contact-us-block-2",
+			"hover",
+			"span.city-country",
+			".quicktabs",
+			"margin",
+			"compass",
+			"btn",
+			"<span style=\"text-align: justify; font-size: 12px;\">",
+			"</span>",
+			"<span style=\"font-size: 12px;\">",
+			"</span>",
+			"<span style=\"font-size:12px;\">",
+			"</span>",
+			"<span style=\"font-size:12px;\">",
+			"</span>",
+			"<span style=\"font-size:12px;\">",
+			"</span>",
+			"<span style=\"font-size:12px;\">",
+			"</span>",
+			"<span style=\"font-size:12px;\">",
+			"</span>",
+			"<span style=\"font-size:12px;\">",
+			"</span>",
+			"<span style=\"font-size:12px;\">",
+			"</span>",
+			"<span style=\"font-size:12px;\">",
+			"line-height",
+			"news",
+			";",
+			"main menu",
+			"top",
+			"1.125",
+			"	",
+			"margin",
+			"left",
+			"476px",
+			"270px",
+			".view-partners",
+			".views-row,",
+			"</span></strong>",
+			"<strong><span style=\"font-size:14px;\">",
+			";\n",
+			"ul",
+			"shadow",
+			"flexslider",
+			"row",
+			"18",
+			"input",
+			"footer",
+			".view-frontpage-consultant-spotlight .rsDefault .rsOverflow",
+			".read-more",
+			"%button",
+			"read-more"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</td><td>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ruby",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mgpark.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"sass/_minwidth1200.scss"
+			],
+			[
+				"def",
+				"sass/_default.scss"
+			],
+			[
+				"1200",
+				"sass/_minwidth1200.scss"
+			],
+			[
+				"ini",
+				"sass/_init.scss"
+			],
+			[
+				"de",
+				"sass/_default.scss"
+			],
+			[
+				"cus",
+				"sass/_custom.scss"
+			],
+			[
+				"html",
+				"index.html"
+			],
+			[
+				"cu",
+				"sass/_custom.scss"
+			],
+			[
+				"in",
+				"sass/_init.scss"
+			],
+			[
+				"s",
+				"private/templates/css/styles.css"
+			],
+			[
+				"styles",
+				"private/templates/css/styles.css"
+			],
+			[
+				"i",
+				"private/templates/sass/_init.scss"
+			],
+			[
+				"styl",
+				"private/templates/sass/styles.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

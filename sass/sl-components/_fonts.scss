@@ -33,7 +33,7 @@ div.download-file a
 
 .inline-link
 {
-    @include link-colors($normal: $black, $hover: $brand-primary, $visited: lighten($black, 10%));
+    @include link-colors($normal: $black, $hover: $blue, $visited: lighten($black, 10%));
     text-decoration: underline;
     @extend %base-font-weight;
 }

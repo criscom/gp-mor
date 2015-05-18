@@ -58,7 +58,7 @@ ul.nice-menu li
         // text-transform: uppercase;
 
         @extend %base-font-size;
-        @include link-colors($normal: $black, $hover: white !important);
+        @include link-colors($normal: $black, $hover: $blue !important);
         @extend %base-font-weight;
         // padding-right: 0 !important;
         @include breakpoint($range769-961) {
@@ -76,9 +76,9 @@ ul.nice-menu li
         border-top-right-radius: 4px;
         a
             {
-            color: black;
+            color: $black;
             &:hover {
-                color: black !important;
+                color: $blue !important;
             }
             }
     }
@@ -109,7 +109,7 @@ ul.nice-menu ul
         {
             text-decoration: none;
 
-            @include link-colors($normal: black, $hover: $red, $visited: black, $active: $red);
+            @include link-colors($normal: black, $hover: $blue, $visited: black, $active: $red);
         }
     }
 }
