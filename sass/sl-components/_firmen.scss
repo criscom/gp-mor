@@ -1,0 +1,32 @@
+
+.node-firmen
+{
+    .group-left,
+    .group-right {
+        width: 49%;
+    }
+    .group-left {
+        margin-right: 2%;
+    }
+    @include breakpoint($iphone5)
+    {
+        .group-left
+        {
+            width: 100%;
+        }
+        .group-right
+        {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+    .label-inline,
+    .label-above
+    {
+        font-size: 100%;
+
+        color: $black;
+
+        @extend %bold-font-weight;
+    }
+}

@@ -3237,7 +3237,8 @@ li a,
 }
 
 /* line 20, ../sass/library/_placeholders.scss */
-.view-mietwohnungen-landing-page h3,
+.node-firmen .label-inline,
+.node-firmen .label-above, .view-mietwohnungen-landing-page h3,
 .front .node-page.view-mode-view_mode_4 h3, .front .flexslider .object, .front .flexslider-events .object, .header__site-link span, .view-mietwohnungen-landing-page .views-row .Verfügbar, .node-wohnung .label-inline,
 .node-wohnung .label-above {
   font-weight: 700;
@@ -3387,6 +3388,33 @@ li a,
 /* line 15, ../sass/sl-components/_default.scss */
 .btn-primary {
   color: #333333;
+}
+
+/* line 4, ../sass/sl-components/_firmen.scss */
+.node-firmen .group-left,
+.node-firmen .group-right {
+  width: 49%;
+}
+/* line 8, ../sass/sl-components/_firmen.scss */
+.node-firmen .group-left {
+  margin-right: 2%;
+}
+@media (max-width: 568px) {
+  /* line 13, ../sass/sl-components/_firmen.scss */
+  .node-firmen .group-left {
+    width: 100%;
+  }
+  /* line 17, ../sass/sl-components/_firmen.scss */
+  .node-firmen .group-right {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* line 23, ../sass/sl-components/_firmen.scss */
+.node-firmen .label-inline,
+.node-firmen .label-above {
+  font-size: 100%;
+  color: #231f20;
 }
 
 /* CSS code for the fonts integration
