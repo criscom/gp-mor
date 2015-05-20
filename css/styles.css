@@ -3545,18 +3545,30 @@ li a,
 .node-firmen .group-left {
   margin-right: 2%;
 }
+/* line 18, ../sass/sl-components/_firmen.scss */
+.node-firmen .group-left .field-name-field-logo {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+/* line 24, ../sass/sl-components/_firmen.scss */
+.node-firmen .group-left .field-name-field-logo img,
+.node-firmen .group-left .field-name-field-firmen-bild img {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
 @media (max-width: 568px) {
-  /* line 21, ../sass/sl-components/_firmen.scss */
+  /* line 31, ../sass/sl-components/_firmen.scss */
   .node-firmen .group-left {
     width: 100%;
   }
-  /* line 25, ../sass/sl-components/_firmen.scss */
+  /* line 35, ../sass/sl-components/_firmen.scss */
   .node-firmen .group-right {
     width: 100%;
     margin-right: 0;
   }
 }
-/* line 31, ../sass/sl-components/_firmen.scss */
+/* line 41, ../sass/sl-components/_firmen.scss */
 .node-firmen .label-inline,
 .node-firmen .label-above {
   font-size: 100%;
