@@ -1,9 +1,85 @@
-/* CSS code for panel page one col two rows
-** PANEL page
+/* CSS code for GEWERBEPARK landing page
+** PANEL page 
+** menu: Gewerbepark
 ** added by criscom
-** /panel-one-two
+** /uebersicht-mgpark
 **
 */
+
+// view mietobjekt_firmen_overview
+
+.view-mietobjekt-firmen-overview {
+
+}
+
+// view firmen_mietobjekt:
+// ======================
+
+.view-mietobjekt-firmen-overview,
+.view-firmen-mietobjekt {
+    .views-row {
+        margin-bottom: 8px;
+        margin-bottom: .5rem;
+        @include clearfix();
+    }
+    .views-row .views-field {
+        float: left;
+    }
+    .views-field-field-zugang-lagerflaechen,
+    .views-field-field-zugang-bueroflaechen {
+        width: 40px;
+        width: 2.5rem;
+        color: white;
+        padding: 4px 0 4px 10px;
+        padding: .25rem 0 .25rem .625rem;
+    }
+    .views-field-field-zugang-lagerflaechen {
+        background-color: $blue;
+    }
+    .views-field-field-zugang-bueroflaechen {
+        background-color: darken($header-color,25%);
+    }
+    .views-field-field-firma-mieter > .field-content {
+        width: 280px;
+        width: 17.5rem;
+        a {
+            color: black;
+            display: block;
+            background-color: white;
+            padding: 4px 4px 4px 12px;
+            padding: .25rem .25rem .25rem .75rem;
+            @include transition-property(background);
+            @include transition-duration(1s);
+            &:hover {
+                text-decoration: none;
+                background-color: $header-color;
+            }
+        }
+    }
+    .uebersicht-wrapper {
+            width: 280px;
+            width: 17.5rem;
+            margin-left: -5px; // moves the white box to align with the blue
+        > span {
+            a {
+            display: block;
+            color: black;
+            background-color: white;
+            max-width: 100%;
+            padding: 4px 4px 4px 12px;
+            padding: .25rem .25rem .25rem .75rem;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+              }
+            }
+        }
+    }
+}
+
+// ==================
+
+// basic stylings
 .page-uebersicht-mgpark .panel-2col-stacked {
              .field-name-field-image {
             img {
