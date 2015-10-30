@@ -3227,7 +3227,7 @@ body, [role='main'] p,
 .wohnungsdetails-link a,
 li a,
 .link a,
-.field-slideshow-caption-text a, h1, .page-mietobjekte .panel-2col-stacked h2.pane-title, ul.nice-menu li a, .webform-component label {
+.field-slideshow-caption-text a, h1, ul.nice-menu li a, .page-mietobjekte .panel-2col-stacked h2.pane-title, .webform-component label {
   font-weight: 300;
 }
 
@@ -3292,13 +3292,13 @@ li a,
 ** /panel-one-two
 **
 */
-/* line 16, ../sass/sl-components/_anfahrt.scss */
+/* line 17, ../sass/sl-components/_anfahrt.scss */
 .page-anfahrt-mgpark .panel-2col-stacked .field-name-field-image img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 25, ../sass/sl-components/_anfahrt.scss */
+/* line 26, ../sass/sl-components/_anfahrt.scss */
 .page-anfahrt-mgpark .panel-2col-stacked .pane__title {
   margin-top: 0;
   margin-bottom: 0;
@@ -3314,25 +3314,25 @@ li a,
   display: table;
   clear: both;
 }
-/* line 34, ../sass/sl-components/_anfahrt.scss */
+/* line 35, ../sass/sl-components/_anfahrt.scss */
 .page-anfahrt-mgpark .panel-2col-stacked .center-wrapper .panel-col-first {
   width: 68%;
 }
 @media (max-width: 767px) {
-  /* line 34, ../sass/sl-components/_anfahrt.scss */
+  /* line 35, ../sass/sl-components/_anfahrt.scss */
   .page-anfahrt-mgpark .panel-2col-stacked .center-wrapper .panel-col-first {
     width: 100%;
     margin-bottom: 24px;
     margin-bottom: 1.5rem;
   }
 }
-/* line 43, ../sass/sl-components/_anfahrt.scss */
+/* line 44, ../sass/sl-components/_anfahrt.scss */
 .page-anfahrt-mgpark .panel-2col-stacked .center-wrapper .panel-col-last {
   width: 30%;
   margin-left: 2%;
 }
 @media (max-width: 767px) {
-  /* line 43, ../sass/sl-components/_anfahrt.scss */
+  /* line 44, ../sass/sl-components/_anfahrt.scss */
   .page-anfahrt-mgpark .panel-2col-stacked .center-wrapper .panel-col-last {
     width: 100%;
     margin-left: 0;
@@ -3388,6 +3388,12 @@ li a,
 /* line 15, ../sass/sl-components/_default.scss */
 .btn-primary {
   color: #333333;
+}
+
+/* line 19, ../sass/sl-components/_default.scss */
+iframe {
+  width: 100%;
+  max-width: 100%;
 }
 
 /* CSS code for partnerinnen landing page
@@ -3736,14 +3742,32 @@ footer a:active {
   }
 }
 
-/* line 83, ../sass/sl-components/_front.scss */
+/* line 81, ../sass/sl-components/_front.scss */
+#mietobjekt-verfuegbarkeit {
+  padding: 8px 0;
+  padding: .5rem 0;
+  background-color: white;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+  /* line 81, ../sass/sl-components/_front.scss */
+  #mietobjekt-verfuegbarkeit {
+    float: none;
+    width: 100%;
+    margin-left: 0 !important;
+  }
+}
+
+/* line 96, ../sass/sl-components/_front.scss */
 .view-mietwohnungen-landing-page h3,
 .front .node-page.view-mode-view_mode_4 h3 {
   text-align: center;
   margin: 8px 0;
   margin: .5rem 0;
 }
-/* line 91, ../sass/sl-components/_front.scss */
+/* line 104, ../sass/sl-components/_front.scss */
 .view-mietwohnungen-landing-page .view-empty p,
 .front .node-page.view-mode-view_mode_4 .view-empty p {
   margin-top: 0;
@@ -3751,33 +3775,33 @@ footer a:active {
   background-color: #f5f5f5;
 }
 
-/* line 102, ../sass/sl-components/_front.scss */
+/* line 115, ../sass/sl-components/_front.scss */
 .front .flexslider, .front .flexslider-events {
   background: transparent;
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
-/* line 106, ../sass/sl-components/_front.scss */
+/* line 119, ../sass/sl-components/_front.scss */
 .front .flexslider .flex-direction-nav, .front .flexslider-events .flex-direction-nav,
 .front .flexslider .flex-next,
 .front .flexslider-events .flex-next {
   display: none;
 }
-/* line 110, ../sass/sl-components/_front.scss */
+/* line 123, ../sass/sl-components/_front.scss */
 .front .flexslider .views-row-odd, .front .flexslider-events .views-row-odd {
   background-color: #f5f5f5;
 }
-/* line 113, ../sass/sl-components/_front.scss */
+/* line 126, ../sass/sl-components/_front.scss */
 .front .flexslider .wohnungsdetails, .front .flexslider-events .wohnungsdetails {
   text-align: center;
 }
-/* line 116, ../sass/sl-components/_front.scss */
+/* line 129, ../sass/sl-components/_front.scss */
 .front .flexslider h2, .front .flexslider-events h2 {
   margin-bottom: 24px !important;
   margin-bottom: 1.5rem !important;
   text-align: center;
 }
-/* line 121, ../sass/sl-components/_front.scss */
+/* line 134, ../sass/sl-components/_front.scss */
 .front .flexslider img, .front .flexslider-events img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -3785,33 +3809,33 @@ footer a:active {
   margin-bottom: 24px !important;
   margin-bottom: 1.5rem !important;
 }
-/* line 126, ../sass/sl-components/_front.scss */
+/* line 139, ../sass/sl-components/_front.scss */
 .front .flexslider .miete-wrapper, .front .flexslider-events .miete-wrapper {
   margin-bottom: 24px;
   margin-bottom: 24px;
 }
-/* line 133, ../sass/sl-components/_front.scss */
+/* line 146, ../sass/sl-components/_front.scss */
 .front .flexslider .object, .front .flexslider-events .object {
   margin-right: 6px;
   margin-right: .375rem;
 }
-/* line 138, ../sass/sl-components/_front.scss */
+/* line 151, ../sass/sl-components/_front.scss */
 .front .flexslider .link, .front .flexslider-events .link {
   margin-left: 6px;
   margin-left: .375rem;
 }
-/* line 142, ../sass/sl-components/_front.scss */
+/* line 155, ../sass/sl-components/_front.scss */
 .front .flexslider .wohnungsdetails-link, .front .flexslider-events .wohnungsdetails-link {
   margin: 24px 0;
   margin: 1.5rem 0;
 }
-/* line 146, ../sass/sl-components/_front.scss */
+/* line 159, ../sass/sl-components/_front.scss */
 .front .flexslider .padding-front, .front .flexslider-events .padding-front {
   padding: 0 16px;
   padding: 0 1rem;
 }
 
-/* line 156, ../sass/sl-components/_front.scss */
+/* line 169, ../sass/sl-components/_front.scss */
 .front .field-name-field-image img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -3828,36 +3852,36 @@ footer a:active {
   display: table;
   clear: both;
 }
-/* line 162, ../sass/sl-components/_front.scss */
+/* line 175, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .panel-col-first {
   clear: both !important;
   width: 49%;
 }
 @media (max-width: 767px) {
-  /* line 162, ../sass/sl-components/_front.scss */
+  /* line 175, ../sass/sl-components/_front.scss */
   .front .center-wrapper.two .panel-col-first {
     width: 100%;
   }
 }
-/* line 170, ../sass/sl-components/_front.scss */
+/* line 183, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .panel-col-last {
   width: 49%;
   margin-left: 2%;
 }
 @media (max-width: 767px) {
-  /* line 170, ../sass/sl-components/_front.scss */
+  /* line 183, ../sass/sl-components/_front.scss */
   .front .center-wrapper.two .panel-col-last {
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 179, ../sass/sl-components/_front.scss */
+/* line 192, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .node {
   margin-bottom: 0;
   padding-bottom: 0;
   border: 0;
 }
-/* line 184, ../sass/sl-components/_front.scss */
+/* line 197, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .node .field-name-body a.more-link {
   display: block;
   text-align: left;
@@ -3900,177 +3924,6 @@ header.header img {
   .header__site-link span {
     font-size: 32px;
   }
-}
-
-/* CSS code for panel page one two
-** PANEL page immobilien landing page
-** added by criscom
-** /mietwohnungen
-**
-*/
-/* line 11, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked h2.pane-title {
-  text-align: center;
-  margin-bottom: 16px;
-  margin-bottom: 1rem;
-}
-/* line 17, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked h2.pane-title span.link {
-  display: block;
-  font-size: 16px;
-  font-size: 1rem;
-  text-transform: initial !important;
-}
-/* line 30, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .panel-col-top .field-name-field-image img,
-.page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first .field-name-field-image img,
-.page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-last .field-name-field-image img {
-  border-radius: 4px;
-}
-/* line 35, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .pane__title {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-/* line 6, ../sass/library/_clearfix.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper:before {
-  content: '';
-  display: table;
-}
-/* line 11, ../sass/library/_clearfix.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-/* line 47, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first {
-  width: 49%;
-}
-@media (max-width: 767px) {
-  /* line 47, ../sass/sl-components/_immobilien-landing-page.scss */
-  .page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first {
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  /* line 47, ../sass/sl-components/_immobilien-landing-page.scss */
-  .page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first {
-    margin-bottom: 24px;
-    margin-bottom: 1.5rem;
-  }
-}
-/* line 60, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-last {
-  width: 49%;
-  margin-left: 2%;
-}
-@media (max-width: 767px) {
-  /* line 60, ../sass/sl-components/_immobilien-landing-page.scss */
-  .page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-last {
-    width: 100%;
-  }
-}
-
-/* line 74, ../sass/sl-components/_immobilien-landing-page.scss */
-.view-mietwohnungen-landing-page .view-header p {
-  text-align: center;
-}
-
-/* line 84, ../sass/sl-components/_immobilien-landing-page.scss */
-h2.wohnung {
-  text-align: center;
-  background-color: #8f8f8f;
-}
-/* line 90, ../sass/sl-components/_immobilien-landing-page.scss */
-h2.wohnung a {
-  font-size: 18.72px;
-  color: white;
-}
-/* line 13, ../sass/library/_link.scss */
-h2.wohnung a:hover {
-  color: #d9d4d1;
-}
-/* line 14, ../sass/library/_link.scss */
-h2.wohnung a:visited {
-  color: white;
-}
-/* line 15, ../sass/library/_link.scss */
-h2.wohnung a:active {
-  color: white;
-}
-
-/* line 101, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content {
-  display: -webkit-flex;
-  -webkit-flex-flow: row wrap;
-  -webkit-justy-content: space-around;
-  display: flex;
-  flex-flow: row wrap;
-  justy-content: space-around;
-}
-/* line 108, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row {
-  width: 100%;
-  background-color: white;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
-@media (min-width: 769px) {
-  /* line 108, ../sass/sl-components/_immobilien-landing-page.scss */
-  .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row {
-    width: 49%;
-  }
-  /* line 112, ../sass/sl-components/_immobilien-landing-page.scss */
-  .ie1 .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row {
-    float: left;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 108, ../sass/sl-components/_immobilien-landing-page.scss */
-  .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row {
-    width: 265px;
-  }
-}
-@media (min-width: 769px) {
-  /* line 127, ../sass/sl-components/_immobilien-landing-page.scss */
-  .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row-odd {
-    margin-right: 2%;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 127, ../sass/sl-components/_immobilien-landing-page.scss */
-  .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row-odd {
-    margin-right: 16px;
-    margin-right: 1rem;
-  }
-}
-/* line 137, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .flaeche,
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .wohnungsdetails,
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .verfuegbarkeit {
-  text-align: center;
-}
-/* line 142, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .verfuegbarkeit {
-  margin-bottom: 16px;
-  margin-bottom: 1rem;
-}
-/* line 146, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .views-field-field-bilder {
-  text-align: center;
-}
-/* line 149, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .wohnungsdetails-link {
-  margin-top: 16px;
-  margin-top: 1rem;
-  text-align: center;
-}
-/* line 154, ../sass/sl-components/_immobilien-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row img {
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
 }
 
 /* CSS code for the language switcher
@@ -4296,6 +4149,178 @@ ul.nice-menu ul li a:active {
     display: none;
   }
 }
+/* CSS code for MIETOBJEKTE landing page
+** PANEL page
+** menu: Mietobjekte
+** added by criscom
+** /mietobjekte
+**
+*/
+/* line 12, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked h2.pane-title {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+/* line 18, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked h2.pane-title span.link {
+  display: block;
+  font-size: 16px;
+  font-size: 1rem;
+  text-transform: initial !important;
+}
+/* line 31, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .panel-col-top .field-name-field-image img,
+.page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first .field-name-field-image img,
+.page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-last .field-name-field-image img {
+  border-radius: 4px;
+}
+/* line 36, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .pane__title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 6, ../sass/library/_clearfix.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper:before {
+  content: '';
+  display: table;
+}
+/* line 11, ../sass/library/_clearfix.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 48, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first {
+  width: 49%;
+}
+@media (max-width: 767px) {
+  /* line 48, ../sass/sl-components/_mietobjekte-landing-page.scss */
+  .page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  /* line 48, ../sass/sl-components/_mietobjekte-landing-page.scss */
+  .page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first {
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+  }
+}
+/* line 61, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-last {
+  width: 49%;
+  margin-left: 2%;
+}
+@media (max-width: 767px) {
+  /* line 61, ../sass/sl-components/_mietobjekte-landing-page.scss */
+  .page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-last {
+    width: 100%;
+  }
+}
+
+/* line 75, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.view-mietwohnungen-landing-page .view-header p {
+  text-align: center;
+}
+
+/* line 85, ../sass/sl-components/_mietobjekte-landing-page.scss */
+h2.wohnung {
+  text-align: center;
+  background-color: #8f8f8f;
+}
+/* line 91, ../sass/sl-components/_mietobjekte-landing-page.scss */
+h2.wohnung a {
+  font-size: 18.72px;
+  color: white;
+}
+/* line 13, ../sass/library/_link.scss */
+h2.wohnung a:hover {
+  color: #d9d4d1;
+}
+/* line 14, ../sass/library/_link.scss */
+h2.wohnung a:visited {
+  color: white;
+}
+/* line 15, ../sass/library/_link.scss */
+h2.wohnung a:active {
+  color: white;
+}
+
+/* line 102, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content {
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  -webkit-justy-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  justy-content: space-around;
+}
+/* line 109, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row {
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+@media (min-width: 769px) {
+  /* line 109, ../sass/sl-components/_mietobjekte-landing-page.scss */
+  .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row {
+    width: 49%;
+  }
+  /* line 113, ../sass/sl-components/_mietobjekte-landing-page.scss */
+  .ie1 .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row {
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 109, ../sass/sl-components/_mietobjekte-landing-page.scss */
+  .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row {
+    width: 265px;
+  }
+}
+@media (min-width: 769px) {
+  /* line 128, ../sass/sl-components/_mietobjekte-landing-page.scss */
+  .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row-odd {
+    margin-right: 2%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 128, ../sass/sl-components/_mietobjekte-landing-page.scss */
+  .page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row-odd {
+    margin-right: 16px;
+    margin-right: 1rem;
+  }
+}
+/* line 138, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .flaeche,
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .wohnungsdetails,
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .verfuegbarkeit {
+  text-align: center;
+}
+/* line 143, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .verfuegbarkeit {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+/* line 147, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .views-field-field-bilder {
+  text-align: center;
+}
+/* line 150, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .wohnungsdetails-link {
+  margin-top: 16px;
+  margin-top: 1rem;
+  text-align: center;
+}
+/* line 155, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row img {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
 /* CSS code for panel page one col / two col
 ** PANEL page
 ** added by criscom
@@ -4403,19 +4428,114 @@ ul.nice-menu ul li a:active {
   }
 }
 
-/* CSS code for panel page one col two rows
-** PANEL page
+/* CSS code for GEWERBEPARK landing page
+** PANEL page 
+** menu: Gewerbepark
 ** added by criscom
-** /panel-one-two
+** /uebersicht-mgpark
 **
 */
-/* line 9, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 20, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .views-row,
+.view-firmen-mietobjekt .views-row {
+  margin-bottom: 8px;
+  margin-bottom: .5rem;
+}
+/* line 6, ../sass/library/_clearfix.scss */
+.view-mietobjekt-firmen-overview .views-row:before,
+.view-firmen-mietobjekt .views-row:before {
+  content: '';
+  display: table;
+}
+/* line 11, ../sass/library/_clearfix.scss */
+.view-mietobjekt-firmen-overview .views-row:after,
+.view-firmen-mietobjekt .views-row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 25, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .views-row .views-field,
+.view-firmen-mietobjekt .views-row .views-field {
+  float: left;
+}
+/* line 28, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .views-field-field-zugang-lagerflaechen,
+.view-mietobjekt-firmen-overview .views-field-field-zugang-bueroflaechen,
+.view-firmen-mietobjekt .views-field-field-zugang-lagerflaechen,
+.view-firmen-mietobjekt .views-field-field-zugang-bueroflaechen {
+  width: 40px;
+  width: 2.5rem;
+  color: white;
+  padding: 4px 0 4px 10px;
+  padding: .25rem 0 .25rem .625rem;
+}
+/* line 36, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .views-field-field-zugang-lagerflaechen,
+.view-firmen-mietobjekt .views-field-field-zugang-lagerflaechen {
+  background-color: #002e7a;
+}
+/* line 39, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .views-field-field-zugang-bueroflaechen,
+.view-firmen-mietobjekt .views-field-field-zugang-bueroflaechen {
+  background-color: #9f938b;
+}
+/* line 42, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .views-field-field-firma-mieter > .field-content,
+.view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content {
+  width: 280px;
+  width: 17.5rem;
+}
+/* line 45, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .views-field-field-firma-mieter > .field-content a,
+.view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content a {
+  color: black;
+  display: block;
+  background-color: white;
+  padding: 4px 4px 4px 12px;
+  padding: .25rem .25rem .25rem .75rem;
+  -webkit-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 53, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .views-field-field-firma-mieter > .field-content a:hover,
+.view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content a:hover {
+  text-decoration: none;
+  background-color: #d9d4d1;
+}
+/* line 59, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .uebersicht-wrapper,
+.view-firmen-mietobjekt .uebersicht-wrapper {
+  width: 280px;
+  width: 17.5rem;
+  margin-left: -5px;
+}
+/* line 64, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .uebersicht-wrapper > span a,
+.view-firmen-mietobjekt .uebersicht-wrapper > span a {
+  display: block;
+  color: black;
+  background-color: white;
+  max-width: 100%;
+  padding: 4px 4px 4px 12px;
+  padding: .25rem .25rem .25rem .75rem;
+  text-decoration: none;
+}
+/* line 72, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview .uebersicht-wrapper > span a:hover,
+.view-firmen-mietobjekt .uebersicht-wrapper > span a:hover {
+  text-decoration: none;
+}
+
+/* line 85, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .field-name-field-image img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 18, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 94, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .pane__title {
   margin-top: 0;
   margin-bottom: 0;
@@ -4431,25 +4551,25 @@ ul.nice-menu ul li a:active {
   display: table;
   clear: both;
 }
-/* line 27, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 103, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-first {
   width: 68%;
 }
 @media (max-width: 767px) {
-  /* line 27, ../sass/sl-components/_uebersicht-mgpark.scss */
+  /* line 103, ../sass/sl-components/_uebersicht-mgpark.scss */
   .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-first {
     width: 100%;
     margin-bottom: 24px;
     margin-bottom: 1.5rem;
   }
 }
-/* line 36, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 112, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-last {
   width: 30%;
   margin-left: 2%;
 }
 @media (max-width: 767px) {
-  /* line 36, ../sass/sl-components/_uebersicht-mgpark.scss */
+  /* line 112, ../sass/sl-components/_uebersicht-mgpark.scss */
   .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-last {
     width: 100%;
     margin-left: 0;
