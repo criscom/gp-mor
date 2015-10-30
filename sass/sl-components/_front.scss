@@ -77,6 +77,21 @@
     }
 }
 
+// styling for text slider "Verfügbar" on frontpage
+#mietobjekt-verfuegbarkeit {
+    .pane-block {
+            padding: 8px 0;
+            padding: .5rem 0;
+            background-color: white; //$header-color;
+            @include border-radius(4px);
+            @include breakpoint($iphone5-6)
+                {
+                float: none;
+                width: 100%;
+                margin-left: 0 !important;
+                }
+    }
+}
 
 .view-mietwohnungen-landing-page,
 .front .node-page.view-mode-view_mode_4 {
