@@ -6,16 +6,19 @@
 **
 */
 
-// view mietobjekt_firmen_overview
 
-.view-mietobjekt-firmen-overview {
-
-}
 
 // view firmen_mietobjekt:
 // ======================
 
-.view-mietobjekt-firmen-overview,
+/*
+view view-mietobjekt-firmen-overview 
+view-id-mietobjekt_firmen_overview 
+view-display-id-block 
+view-dom-id-150ed240a5bd96c6ddd29546f66438ab
+*/
+
+.view-mietobjekt-firmen-overview.view-display-id-block,
 .view-firmen-mietobjekt {
     .views-row {
         margin-bottom: 8px;
@@ -35,44 +38,55 @@
     }
     .views-field-field-zugang-lagerflaechen {
         background-color: $blue;
+        font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
     }
     .views-field-field-zugang-bueroflaechen {
         background-color: darken($header-color,25%);
+        font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
     }
     .views-field-field-firma-mieter > .field-content {
         width: 280px;
         width: 17.5rem;
         a {
+            font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
             color: black;
             display: block;
             background-color: white;
             padding: 4px 4px 4px 12px;
             padding: .25rem .25rem .25rem .75rem;
-            @include transition-property(background);
-            @include transition-duration(1s);
+            @include transition-property(all);
+            @include transition-duration(.75s);
             &:hover {
+                font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
                 text-decoration: none;
-                background-color: $header-color;
+                background-color: $blue;
+                color: white;
             }
         }
     }
-    .uebersicht-wrapper {
-            width: 280px;
-            width: 17.5rem;
-            margin-left: -5px; // moves the white box to align with the blue
-        > span {
-            a {
-            display: block;
-            color: black;
-            background-color: white;
-            max-width: 100%;
-            padding: 4px 4px 4px 12px;
-            padding: .25rem .25rem .25rem .75rem;
-            text-decoration: none;
-            &:hover {
-                text-decoration: none;
-              }
-            }
+}
+
+// Add some margin above mgp Büro Zugänge
+.views-row.B1 {
+    &:before {
+        font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
+        content: "mgp büro";
+        color: $blue;
+        font-weight: 600;
+        margin-bottom: 16px;
+        margin-bottom: 1rem;
+    }
+    @include breakpoint($desktop){
+        margin-top: 5rem;
+        margin-top: 80px;
+    }
+}
+
+// Give mgp Büro Zugänge a different hover color
+.views-row.B {
+    &1,&2,&3,&4,&5,&6,&7 {
+        .views-field-field-firma-mieter > .field-content a:hover {        
+            background-color: darken($header-color,25%);;
         }
     }
 }

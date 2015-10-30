@@ -1,4 +1,12 @@
 
+/*
+view view-mietobjekt-firmen-overview
+view-id-mietobjekt_firmen_overview 
+view-display-id-panel_pane_1 
+view-dom-id-7147b762c0e385af1939dee4d810de0d
+*/
+
+#firmen,
 .node-firmen
 {
     @extend %base-background;
@@ -9,10 +17,13 @@
         font-size: 2rem;
     }
 
+    .panel-col-first,
+    .panel-col-last,
     .group-left,
     .group-right {
         width: 49%;
     }
+    .panel-col-first,
     .group-left {
         margin-right: 2%;
         .field-name-field-logo {
@@ -28,16 +39,19 @@
     }
     @include breakpoint($iphone5)
     {
+        .panel-col-first,
         .group-left
         {
             width: 100%;
         }
+        .panel-col-last,
         .group-right
         {
             width: 100%;
             margin-right: 0;
         }
     }
+    .views-label,
     .label-inline,
     .label-above
     {

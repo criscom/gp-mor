@@ -3222,9 +3222,11 @@ body, [role='main'] p,
 }
 
 /* line 12, ../sass/library/_placeholders.scss */
-.page-node-44 h2, .node-firmen h2, body, [role='main'] p,
+#firmen h2,
+.node-firmen h2, .page-node-44 h2, body, [role='main'] p,
 [role='main'] ul li, .inline-link, div.download-file a, div p a,
 .wohnungsdetails-link a,
+.mietobjektdetails-link a,
 li a,
 .link a,
 .field-slideshow-caption-text a, h1, ul.nice-menu li a, .page-mietobjekte .panel-2col-stacked h2.pane-title, .webform-component label {
@@ -3237,6 +3239,10 @@ li a,
 }
 
 /* line 20, ../sass/library/_placeholders.scss */
+#firmen .views-label,
+#firmen .label-inline,
+#firmen .label-above,
+.node-firmen .views-label,
 .node-firmen .label-inline,
 .node-firmen .label-above, .view-mietwohnungen-landing-page h3,
 .front .node-page.view-mode-view_mode_4 h3, .front .flexslider .object, .front .flexslider-events .object, .header__site-link span, .view-mietwohnungen-landing-page .views-row .Verfügbar, .node-wohnung .label-inline,
@@ -3247,7 +3253,8 @@ li a,
 /* line 24, ../sass/library/_placeholders.scss */
 .page-anfahrt-mgpark .panel-2col-stacked .panel-col-top,
 .page-anfahrt-mgpark .panel-2col-stacked .center-wrapper .panel-col-first,
-.page-anfahrt-mgpark .panel-2col-stacked .center-wrapper .panel-col-last, .node-firmen, .center-wrapper.one .panel-col-first, .center-wrapper.one .panel-col-last, .page-mietobjekte .panel-2col-stacked .panel-col-top,
+.page-anfahrt-mgpark .panel-2col-stacked .center-wrapper .panel-col-last, #firmen,
+.node-firmen, .center-wrapper.one .panel-col-first, .center-wrapper.one .panel-col-last, .page-mietobjekte .panel-2col-stacked .panel-col-top,
 .page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-first,
 .page-mietobjekte .panel-2col-stacked .center-wrapper .panel-col-last, .center-wrapper.two .panel-col-first, .center-wrapper.two .panel-col-last, .page-uebersicht-mgpark .panel-2col-stacked .panel-col-top,
 .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-first,
@@ -3396,6 +3403,90 @@ iframe {
   max-width: 100%;
 }
 
+/*
+view view-mietobjekt-firmen-overview
+view-id-mietobjekt_firmen_overview 
+view-display-id-panel_pane_1 
+view-dom-id-7147b762c0e385af1939dee4d810de0d
+*/
+/* line 9, ../sass/sl-components/_firmen-detail.scss */
+#firmen,
+.node-firmen {
+  margin-top: 32px;
+}
+/* line 14, ../sass/sl-components/_firmen-detail.scss */
+#firmen h2,
+.node-firmen h2 {
+  font-size: 32px;
+  font-size: 2rem;
+}
+/* line 20, ../sass/sl-components/_firmen-detail.scss */
+#firmen .panel-col-first,
+#firmen .panel-col-last,
+#firmen .group-left,
+#firmen .group-right,
+.node-firmen .panel-col-first,
+.node-firmen .panel-col-last,
+.node-firmen .group-left,
+.node-firmen .group-right {
+  width: 49%;
+}
+/* line 26, ../sass/sl-components/_firmen-detail.scss */
+#firmen .panel-col-first,
+#firmen .group-left,
+.node-firmen .panel-col-first,
+.node-firmen .group-left {
+  margin-right: 2%;
+}
+/* line 29, ../sass/sl-components/_firmen-detail.scss */
+#firmen .panel-col-first .field-name-field-logo,
+#firmen .group-left .field-name-field-logo,
+.node-firmen .panel-col-first .field-name-field-logo,
+.node-firmen .group-left .field-name-field-logo {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+/* line 35, ../sass/sl-components/_firmen-detail.scss */
+#firmen .panel-col-first .field-name-field-logo img,
+#firmen .panel-col-first .field-name-field-firmen-bild img,
+#firmen .group-left .field-name-field-logo img,
+#firmen .group-left .field-name-field-firmen-bild img,
+.node-firmen .panel-col-first .field-name-field-logo img,
+.node-firmen .panel-col-first .field-name-field-firmen-bild img,
+.node-firmen .group-left .field-name-field-logo img,
+.node-firmen .group-left .field-name-field-firmen-bild img {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+@media (max-width: 568px) {
+  /* line 42, ../sass/sl-components/_firmen-detail.scss */
+  #firmen .panel-col-first,
+  #firmen .group-left,
+  .node-firmen .panel-col-first,
+  .node-firmen .group-left {
+    width: 100%;
+  }
+  /* line 47, ../sass/sl-components/_firmen-detail.scss */
+  #firmen .panel-col-last,
+  #firmen .group-right,
+  .node-firmen .panel-col-last,
+  .node-firmen .group-right {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* line 54, ../sass/sl-components/_firmen-detail.scss */
+#firmen .views-label,
+#firmen .label-inline,
+#firmen .label-above,
+.node-firmen .views-label,
+.node-firmen .label-inline,
+.node-firmen .label-above {
+  font-size: 100%;
+  color: #231f20;
+}
+
 /* CSS code for partnerinnen landing page
 ** added by criscom
 ** /de/partnerinnen/partnerinnen/2015
@@ -3533,54 +3624,6 @@ iframe {
   }
 }
 
-/* line 2, ../sass/sl-components/_firmen.scss */
-.node-firmen {
-  margin-top: 32px;
-}
-/* line 6, ../sass/sl-components/_firmen.scss */
-.node-firmen h2 {
-  font-size: 32px;
-  font-size: 2rem;
-}
-/* line 12, ../sass/sl-components/_firmen.scss */
-.node-firmen .group-left,
-.node-firmen .group-right {
-  width: 49%;
-}
-/* line 16, ../sass/sl-components/_firmen.scss */
-.node-firmen .group-left {
-  margin-right: 2%;
-}
-/* line 18, ../sass/sl-components/_firmen.scss */
-.node-firmen .group-left .field-name-field-logo {
-  margin-bottom: 16px;
-  margin-bottom: 1rem;
-}
-/* line 24, ../sass/sl-components/_firmen.scss */
-.node-firmen .group-left .field-name-field-logo img,
-.node-firmen .group-left .field-name-field-firmen-bild img {
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-}
-@media (max-width: 568px) {
-  /* line 31, ../sass/sl-components/_firmen.scss */
-  .node-firmen .group-left {
-    width: 100%;
-  }
-  /* line 35, ../sass/sl-components/_firmen.scss */
-  .node-firmen .group-right {
-    width: 100%;
-    margin-right: 0;
-  }
-}
-/* line 41, ../sass/sl-components/_firmen.scss */
-.node-firmen .label-inline,
-.node-firmen .label-above {
-  font-size: 100%;
-  color: #231f20;
-}
-
 /* CSS code for the fonts integration
 ** added by criscom
 ** this file contains general font declarations that apply to fonts across the site
@@ -3590,6 +3633,7 @@ iframe {
 /* line 34, ../sass/sl-components/_fonts.scss */
 .inline-link, div.download-file a, div p a,
 .wohnungsdetails-link a,
+.mietobjektdetails-link a,
 li a,
 .link a,
 .field-slideshow-caption-text a {
@@ -3599,6 +3643,7 @@ li a,
 /* line 13, ../sass/library/_link.scss */
 .inline-link:hover, div.download-file a:hover, div p a:hover,
 .wohnungsdetails-link a:hover,
+.mietobjektdetails-link a:hover,
 li a:hover,
 .link a:hover,
 .field-slideshow-caption-text a:hover {
@@ -3607,6 +3652,7 @@ li a:hover,
 /* line 14, ../sass/library/_link.scss */
 .inline-link:visited, div.download-file a:visited, div p a:visited,
 .wohnungsdetails-link a:visited,
+.mietobjektdetails-link a:visited,
 li a:visited,
 .link a:visited,
 .field-slideshow-caption-text a:visited {
@@ -3615,15 +3661,17 @@ li a:visited,
 /* line 15, ../sass/library/_link.scss */
 .inline-link:active, div.download-file a:active, div p a:active,
 .wohnungsdetails-link a:active,
+.mietobjektdetails-link a:active,
 li a:active,
 .link a:active,
 .field-slideshow-caption-text a:active {
   color: #231f20;
 }
 
-/* line 48, ../sass/sl-components/_fonts.scss */
+/* line 49, ../sass/sl-components/_fonts.scss */
 div p a:hover,
 .wohnungsdetails-link a:hover,
+.mietobjektdetails-link a:hover,
 li a:hover,
 .link a:hover,
 .field-slideshow-caption-text a:hover {
@@ -3825,17 +3873,19 @@ footer a:active {
   margin-left: .375rem;
 }
 /* line 155, ../sass/sl-components/_front.scss */
-.front .flexslider .wohnungsdetails-link, .front .flexslider-events .wohnungsdetails-link {
+.front .flexslider .mietobjekt-link, .front .flexslider-events .mietobjekt-link,
+.front .flexslider .wohnungsdetails-link,
+.front .flexslider-events .wohnungsdetails-link {
   margin: 24px 0;
   margin: 1.5rem 0;
 }
-/* line 159, ../sass/sl-components/_front.scss */
+/* line 160, ../sass/sl-components/_front.scss */
 .front .flexslider .padding-front, .front .flexslider-events .padding-front {
   padding: 0 16px;
   padding: 0 1rem;
 }
 
-/* line 169, ../sass/sl-components/_front.scss */
+/* line 170, ../sass/sl-components/_front.scss */
 .front .field-name-field-image img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -3852,36 +3902,36 @@ footer a:active {
   display: table;
   clear: both;
 }
-/* line 175, ../sass/sl-components/_front.scss */
+/* line 176, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .panel-col-first {
   clear: both !important;
   width: 49%;
 }
 @media (max-width: 767px) {
-  /* line 175, ../sass/sl-components/_front.scss */
+  /* line 176, ../sass/sl-components/_front.scss */
   .front .center-wrapper.two .panel-col-first {
     width: 100%;
   }
 }
-/* line 183, ../sass/sl-components/_front.scss */
+/* line 184, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .panel-col-last {
   width: 49%;
   margin-left: 2%;
 }
 @media (max-width: 767px) {
-  /* line 183, ../sass/sl-components/_front.scss */
+  /* line 184, ../sass/sl-components/_front.scss */
   .front .center-wrapper.two .panel-col-last {
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 192, ../sass/sl-components/_front.scss */
+/* line 193, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .node {
   margin-bottom: 0;
   padding-bottom: 0;
   border: 0;
 }
-/* line 197, ../sass/sl-components/_front.scss */
+/* line 198, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .node .field-name-body a.more-link {
   display: block;
   text-align: left;
@@ -4293,29 +4343,35 @@ h2.wohnung a:active {
     margin-right: 1rem;
   }
 }
-/* line 138, ../sass/sl-components/_mietobjekte-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .flaeche,
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .wohnungsdetails,
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .verfuegbarkeit {
+
+/* line 142, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.flaeche,
+.wohnungsdetails,
+.verfuegbarkeit {
   text-align: center;
 }
-/* line 143, ../sass/sl-components/_mietobjekte-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .verfuegbarkeit {
+
+/* line 147, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.verfuegbarkeit {
   margin-bottom: 16px;
   margin-bottom: 1rem;
 }
-/* line 147, ../sass/sl-components/_mietobjekte-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .views-field-field-bilder {
+
+/* line 151, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.views-field-field-bilder {
   text-align: center;
 }
-/* line 150, ../sass/sl-components/_mietobjekte-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row .wohnungsdetails-link {
+
+/* line 154, ../sass/sl-components/_mietobjekte-landing-page.scss */
+.mietobjektdetails-link,
+.wohnungsdetails-link {
   margin-top: 16px;
   margin-top: 1rem;
   text-align: center;
 }
-/* line 155, ../sass/sl-components/_mietobjekte-landing-page.scss */
-.page-mietobjekte .panel-2col-stacked .center-wrapper .view .view-content .views-row img {
+
+/* line 161, ../sass/sl-components/_mietobjekte-landing-page.scss */
+img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -4435,33 +4491,39 @@ h2.wohnung a:active {
 ** /uebersicht-mgpark
 **
 */
-/* line 20, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .views-row,
+/*
+view view-mietobjekt-firmen-overview 
+view-id-mietobjekt_firmen_overview 
+view-display-id-block 
+view-dom-id-150ed240a5bd96c6ddd29546f66438ab
+*/
+/* line 23, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview.view-display-id-block .views-row,
 .view-firmen-mietobjekt .views-row {
   margin-bottom: 8px;
   margin-bottom: .5rem;
 }
 /* line 6, ../sass/library/_clearfix.scss */
-.view-mietobjekt-firmen-overview .views-row:before,
+.view-mietobjekt-firmen-overview.view-display-id-block .views-row:before,
 .view-firmen-mietobjekt .views-row:before {
   content: '';
   display: table;
 }
 /* line 11, ../sass/library/_clearfix.scss */
-.view-mietobjekt-firmen-overview .views-row:after,
+.view-mietobjekt-firmen-overview.view-display-id-block .views-row:after,
 .view-firmen-mietobjekt .views-row:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 25, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .views-row .views-field,
+/* line 28, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview.view-display-id-block .views-row .views-field,
 .view-firmen-mietobjekt .views-row .views-field {
   float: left;
 }
-/* line 28, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .views-field-field-zugang-lagerflaechen,
-.view-mietobjekt-firmen-overview .views-field-field-zugang-bueroflaechen,
+/* line 31, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-zugang-lagerflaechen,
+.view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-zugang-bueroflaechen,
 .view-firmen-mietobjekt .views-field-field-zugang-lagerflaechen,
 .view-firmen-mietobjekt .views-field-field-zugang-bueroflaechen {
   width: 40px;
@@ -4470,72 +4532,76 @@ h2.wohnung a:active {
   padding: 4px 0 4px 10px;
   padding: .25rem 0 .25rem .625rem;
 }
-/* line 36, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .views-field-field-zugang-lagerflaechen,
+/* line 39, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-zugang-lagerflaechen,
 .view-firmen-mietobjekt .views-field-field-zugang-lagerflaechen {
   background-color: #002e7a;
+  font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
 }
-/* line 39, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .views-field-field-zugang-bueroflaechen,
+/* line 43, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-zugang-bueroflaechen,
 .view-firmen-mietobjekt .views-field-field-zugang-bueroflaechen {
   background-color: #9f938b;
+  font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
 }
-/* line 42, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .views-field-field-firma-mieter > .field-content,
+/* line 47, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-firma-mieter > .field-content,
 .view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content {
   width: 280px;
   width: 17.5rem;
 }
-/* line 45, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .views-field-field-firma-mieter > .field-content a,
+/* line 50, ../sass/sl-components/_uebersicht-mgpark.scss */
+.view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-firma-mieter > .field-content a,
 .view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content a {
+  font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
   color: black;
   display: block;
   background-color: white;
   padding: 4px 4px 4px 12px;
   padding: .25rem .25rem .25rem .75rem;
-  -webkit-transition-property: background;
-  transition-property: background;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
-}
-/* line 53, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .views-field-field-firma-mieter > .field-content a:hover,
-.view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content a:hover {
-  text-decoration: none;
-  background-color: #d9d4d1;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.75s;
+  transition-duration: 0.75s;
 }
 /* line 59, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .uebersicht-wrapper,
-.view-firmen-mietobjekt .uebersicht-wrapper {
-  width: 280px;
-  width: 17.5rem;
-  margin-left: -5px;
-}
-/* line 64, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .uebersicht-wrapper > span a,
-.view-firmen-mietobjekt .uebersicht-wrapper > span a {
-  display: block;
-  color: black;
-  background-color: white;
-  max-width: 100%;
-  padding: 4px 4px 4px 12px;
-  padding: .25rem .25rem .25rem .75rem;
+.view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-firma-mieter > .field-content a:hover,
+.view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content a:hover {
+  font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
   text-decoration: none;
-}
-/* line 72, ../sass/sl-components/_uebersicht-mgpark.scss */
-.view-mietobjekt-firmen-overview .uebersicht-wrapper > span a:hover,
-.view-firmen-mietobjekt .uebersicht-wrapper > span a:hover {
-  text-decoration: none;
+  background-color: #002e7a;
+  color: white;
 }
 
-/* line 85, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 71, ../sass/sl-components/_uebersicht-mgpark.scss */
+.views-row.B1:before {
+  font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
+  content: "mgp büro";
+  color: #002e7a;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+@media (min-width: 769px) {
+  /* line 70, ../sass/sl-components/_uebersicht-mgpark.scss */
+  .views-row.B1 {
+    margin-top: 5rem;
+    margin-top: 80px;
+  }
+}
+
+/* line 88, ../sass/sl-components/_uebersicht-mgpark.scss */
+.views-row.B1 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B2 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B3 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B4 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B5 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B6 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B7 .views-field-field-firma-mieter > .field-content a:hover {
+  background-color: #9f938b;
+}
+
+/* line 99, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .field-name-field-image img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 94, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 108, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .pane__title {
   margin-top: 0;
   margin-bottom: 0;
@@ -4551,25 +4617,25 @@ h2.wohnung a:active {
   display: table;
   clear: both;
 }
-/* line 103, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 117, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-first {
   width: 68%;
 }
 @media (max-width: 767px) {
-  /* line 103, ../sass/sl-components/_uebersicht-mgpark.scss */
+  /* line 117, ../sass/sl-components/_uebersicht-mgpark.scss */
   .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-first {
     width: 100%;
     margin-bottom: 24px;
     margin-bottom: 1.5rem;
   }
 }
-/* line 112, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 126, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-last {
   width: 30%;
   margin-left: 2%;
 }
 @media (max-width: 767px) {
-  /* line 112, ../sass/sl-components/_uebersicht-mgpark.scss */
+  /* line 126, ../sass/sl-components/_uebersicht-mgpark.scss */
   .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-last {
     width: 100%;
     margin-left: 0;

@@ -135,26 +135,29 @@ h2.wohnung
                     margin-right: 1rem;
                 }
             }
-            .flaeche,
-            .wohnungsdetails,
-            .verfuegbarkeit {
-                text-align: center;
-            }
-            .verfuegbarkeit {
-                margin-bottom: 16px;
-                margin-bottom: 1rem;
-            }
-            .views-field-field-bilder {
-                text-align: center;
-            }
-            .wohnungsdetails-link {
-                margin-top: 16px;
-                margin-top: 1rem;
-                text-align: center;
-            }
-            img {
-                @include border-radius(4px);
-            }
         }
     }
 }
+
+.flaeche,
+.wohnungsdetails,
+.verfuegbarkeit {
+    text-align: center;
+    }
+.verfuegbarkeit {
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+    }
+.views-field-field-bilder {
+    text-align: center;
+    }
+.mietobjektdetails-link,
+.wohnungsdetails-link // obsolete
+{
+    margin-top: 16px;
+    margin-top: 1rem;
+    text-align: center;
+    }
+img {
+    @include border-radius(4px);}
+

@@ -55,6 +55,7 @@ stylesheets[all][] = node.css
 
 ; Add Google Webfonts 
 
+fonts[google_fonts_api][] = "Didact Gothic&subset=latin#regular"
 fonts[google_fonts_api][] = "Open Sans&subset=latin#300"
 fonts[google_fonts_api][] = "Open Sans&subset=latin#600"
 
