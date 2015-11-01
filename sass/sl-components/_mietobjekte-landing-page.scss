@@ -1,70 +1,70 @@
-/* CSS code for MIETOBJEKTE landing page
-** PANEL page
-** menu: Mietobjekte
-** added by criscom
-** /mietobjekte
-**
-*/
+//* CSS code for MIETOBJEKTE landing page
+//** PANEL page
+//** menu: Mietobjekte
+//** added by criscom
+//** /mietobjekte
+//**
+//*
 
 
-.page-mietobjekte .panel-2col-stacked
-{
-    h2.pane-title {
-        text-align: center;
+.page-mietobjekte .panel-2col-stacked {
+    .pane-title {
+        @extend %base-font-weight;
         // text-transform: uppercase;
         margin-bottom: 16px;
         margin-bottom: 1rem;
-        @extend %base-font-weight;
-        span.link {
+        text-align: center;
+
+        .link {
             display: block;
             font-size: 16px;
             font-size: 1rem;
             text-transform: initial !important;
         }
     }
+
     .panel-col-top,
     .center-wrapper .panel-col-first,
-    .center-wrapper .panel-col-last
-    {
+    .center-wrapper .panel-col-last {
         @extend %base-background;
+
         .field-name-field-image {
             img {
                 border-radius: 4px;
             }
         }
     }
-    .pane__title
-    {
+
+    .pane__title {
         margin-top: 0;
         margin-bottom: 0;
     }
-    .panel-col-top
-    {
+
+    .panel-col-top {
         @extend %white-space;
     }
-    .center-wrapper
-    {
+
+    .center-wrapper {
         @include clearfix;
-        .panel-col-first
-        {
+
+        .panel-col-first {
             width: 49%;
 
-            @include breakpoint($iphone5-6)
-            {
+            @include breakpoint($iphone5-6) {
                 width: 100%;
             }
-        @include breakpoint($max768) {
-            margin-bottom: $white-space-px;
-            margin-bottom: $white-space-rem;
-     }
+
+            @include breakpoint($max768) {
+                margin-bottom: $white-space-px;
+                margin-bottom: $white-space-rem;
+            }
         }
-        .panel-col-last
-        {
+
+        .panel-col-last {
                 width: 49%;
                 margin-left: 2%;
 
-            @include breakpoint($iphone5-6)
-            {
+            @include breakpoint($iphone5-6) {
                 width: 100%;
             }
         }
@@ -75,6 +75,7 @@
     .view-header p {
         text-align: center;
     }
+
     .views-row {
         .Verfügbar {
             @extend %bold-font-weight;
@@ -82,32 +83,28 @@
     }
 }
 
-h2.wohnung
-{
-    text-align: center;
-
+.wohnung { // h2
     background-color: darken($breadcrumb-bg, 40%);
     // background-color: $header-color;
-    a
-    {
-        font-size: $h3-font-size;
+    text-align: center;
+
+    a {
         @include link-colors(
-        $normal: white,
+        $normal: #fff,
         $hover: $brand-primary);
+        font-size: $h3-font-size;
     }
 }
 
-.page-mietobjekte .panel-2col-stacked
-{
-    .center-wrapper .view .view-content
-    {
+.page-mietobjekte .panel-2col-stacked {
+    .center-wrapper .view .view-content {
         @include flexbox ((
         display: flex,
         flex-flow: row wrap,
         justy-content: space-around
         ));
-        .views-row
-        {
+
+        .views-row {
             width: 100%;
             @include breakpoint($desktop) {
                 .ie1 & {
@@ -144,20 +141,23 @@ h2.wohnung
 .verfuegbarkeit {
     text-align: center;
     }
+
 .verfuegbarkeit {
     margin-bottom: 16px;
     margin-bottom: 1rem;
     }
+
 .views-field-field-bilder {
     text-align: center;
     }
+
 .mietobjektdetails-link,
-.wohnungsdetails-link // obsolete
-{
+.wohnungsdetails-link { // obsolete
     margin-top: 16px;
     margin-top: 1rem;
     text-align: center;
     }
-img {
-    @include border-radius(4px);}
 
+img {
+    @include border-radius(4px);
+}
