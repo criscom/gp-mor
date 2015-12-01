@@ -1,6 +1,6 @@
-/* CSS code for wohnung detail page
+/* CSS code for Mietobjekte Detail page
 ** added by criscom
-** /wohnung/wohnung-1-4-zimmer-wohnung-4-er-wg
+** Content Type: mietobjekte
 */
 
 
@@ -50,10 +50,17 @@ h1.object-title,
 .page-title,
 .node-wohnung .group-top h2
 {
+    margin-top: 12px;
+    margin-top: .75rem;
     &:hover
     {
         // link-less hover stylings for headers and titles see _fonts.scss
     }
+}
+
+.node-wohnung.view-mode-full {
+    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .node-wohnung

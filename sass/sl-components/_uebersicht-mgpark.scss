@@ -41,7 +41,8 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
         font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
     }
     .views-field-field-zugang-bueroflaechen {
-        background-color: darken($header-color,25%);
+        // background-color: darken($header-color,25%);
+        background-color: $buero;
         font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
     }
     .views-field-field-firma-mieter > .field-content {
@@ -86,7 +87,8 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
 .views-row.B {
     &1,&2,&3,&4,&5,&6,&7 {
         .views-field-field-firma-mieter > .field-content a:hover {        
-            background-color: darken($header-color,25%);;
+            // background-color: darken($header-color,25%);
+            background-color: $buero;
         }
     }
 }

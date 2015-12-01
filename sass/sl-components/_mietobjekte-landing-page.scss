@@ -108,7 +108,7 @@
             width: 100%;
             @include breakpoint($desktop) {
                 .ie1 & {
-                    float: left; // workaround for IE10, which does not supporting flexbox
+                    float: left; // workaround for IE10, which does not support flexbox
                 }
             width: 49%;
              }
