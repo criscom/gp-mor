@@ -79,7 +79,8 @@
     }
 
     .views-row {
-        .Verfügbar {
+        min-height: 366px !important;
+        .Verfügbar, .verfuegbar {
             @extend %bold-font-weight;
         }
     }
@@ -104,7 +105,7 @@
 
 .pane-views-bf9dccb063c76abaa0f29b5b9d7f4a63 {
     .wohnung {
-        background-color: $blue;
+        background-color: $buero;
 
     }
 }
@@ -113,7 +114,7 @@
 
 .pane-views-cdd465cb4c4beead8c41ebccc3cf586f {
     .wohnung {
-        background-color: $buero;
+        background-color: $blue;
     }
 }
 
