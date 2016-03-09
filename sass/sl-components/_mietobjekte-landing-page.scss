@@ -71,6 +71,8 @@
     }
 }
 
+
+
 .view-mietwohnungen-landing-page {
     .view-header p {
         text-align: center;
@@ -84,15 +86,34 @@
 }
 
 .wohnung { // h2
-    background-color: darken($breadcrumb-bg, 40%);
+    background-color: darken($breadcrumb-bg, 40%); // ==> set background for the headers differently
     // background-color: $header-color;
     text-align: center;
+    color: white;
+    font-size: $h3-font-size;
 
     a {
         @include link-colors(
         $normal: #fff,
         $hover: $brand-primary);
         font-size: $h3-font-size;
+    }
+}
+
+// header background büroflächen
+
+.pane-views-bf9dccb063c76abaa0f29b5b9d7f4a63 {
+    .wohnung {
+        background-color: $blue;
+
+    }
+}
+
+// header background lagerflächen
+
+.pane-views-cdd465cb4c4beead8c41ebccc3cf586f {
+    .wohnung {
+        background-color: $buero;
     }
 }
 
