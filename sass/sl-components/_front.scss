@@ -81,7 +81,7 @@
 #mietobjekt-verfuegbarkeit {
         padding: 8px 0;
         padding: .5rem 0;
-        background-color: white; //$header-color;
+        background-color: $buero; // white; //$header-color;
         @include border-radius(4px);
         @include breakpoint($iphone5-6)
             {
@@ -98,6 +98,7 @@
         margin: 8px 0;
         margin: .5rem 0;
         @extend %bold-font-weight;
+        color: white;
 
     }
     .view-empty {
@@ -120,8 +121,25 @@
         .flex-next {
             display: none;
         }
+        .flex-control-nav {
+            a {
+                background: $gray;
+            }
+            a.flex-active {
+                background: white;
+            }
+        }
         .views-row-odd {
             background-color: $breadcrumb-bg;
+        }
+        .views-row-even {
+            color: white !important;
+            a {
+                color: white;
+                &:hover {
+                    color: white;
+                }
+            }
         }
         .wohnungsdetails {
             text-align: center;
