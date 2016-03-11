@@ -3507,7 +3507,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   width: 100%;
   border-top: 1px solid black;
 }
-/* line 33, ../sass/sl-components/_firmen-landing-page.scss */
+/* line 34, ../sass/sl-components/_firmen-landing-page.scss */
 .section-mieter-mgpark .block-views h2 a,
 .page-node-44 .block-views h2 a,
 .page-node-63 .block-views h2 a {
@@ -3532,7 +3532,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
 .page-node-63 .block-views h2 a:active {
   color: black;
 }
-/* line 40, ../sass/sl-components/_firmen-landing-page.scss */
+/* line 41, ../sass/sl-components/_firmen-landing-page.scss */
 .section-mieter-mgpark .block-views .block__title,
 .page-node-44 .block-views .block__title,
 .page-node-63 .block-views .block__title {
@@ -3543,14 +3543,14 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
-/* line 47, ../sass/sl-components/_firmen-landing-page.scss */
+/* line 48, ../sass/sl-components/_firmen-landing-page.scss */
 #block-views-partnerinnen-block-1 .section-mieter-mgpark .block-views .block__title, #block-views-partnerinnen-block-1
 .page-node-44 .block-views .block__title, #block-views-partnerinnen-block-1
 .page-node-63 .block-views .block__title {
   padding-top: 0;
 }
 @media (min-width: 769px) {
-  /* line 54, ../sass/sl-components/_firmen-landing-page.scss */
+  /* line 55, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .views-row,
   .page-node-44 .block-views .views-row,
   .page-node-63 .block-views .views-row {
@@ -3558,6 +3558,12 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
     width: 30%;
   }
   /* line 65, ../sass/sl-components/_firmen-landing-page.scss */
+  .section-mieter-mgpark .block-views .views-row .views-field-field-logo,
+  .page-node-44 .block-views .views-row .views-field-field-logo,
+  .page-node-63 .block-views .views-row .views-field-field-logo {
+    padding: 16px 0;
+  }
+  /* line 69, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .views-row-1, .section-mieter-mgpark .block-views .views-row-4, .section-mieter-mgpark .block-views .views-row-7, .section-mieter-mgpark .block-views .views-row-10, .section-mieter-mgpark .block-views .views-row-13, .section-mieter-mgpark .block-views .views-row-16,
   .section-mieter-mgpark .block-views .views-row-19, .section-mieter-mgpark .block-views .views-row-22, .section-mieter-mgpark .block-views .views-row-25, .section-mieter-mgpark .block-views .views-row-28, .section-mieter-mgpark .block-views .views-row-31, .section-mieter-mgpark .block-views .views-row-34,
   .section-mieter-mgpark .block-views .views-row-37, .section-mieter-mgpark .block-views .views-row-40, .section-mieter-mgpark .block-views .views-row-41,
@@ -3594,7 +3600,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
     clear: left;
     margin-right: 2%;
   }
-  /* line 72, ../sass/sl-components/_firmen-landing-page.scss */
+  /* line 78, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .views-row-2, .section-mieter-mgpark .block-views .views-row-5, .section-mieter-mgpark .block-views .views-row-8, .section-mieter-mgpark .block-views .views-row-11, .section-mieter-mgpark .block-views .views-row-14, .section-mieter-mgpark .block-views .views-row-17,
   .section-mieter-mgpark .block-views .views-row-20, .section-mieter-mgpark .block-views .views-row-23, .section-mieter-mgpark .block-views .views-row-26, .section-mieter-mgpark .block-views .views-row-29, .section-mieter-mgpark .block-views .views-row-32, .section-mieter-mgpark .block-views .views-row-35,
   .section-mieter-mgpark .block-views .views-row-40, .section-mieter-mgpark .block-views .views-row-41, .section-mieter-mgpark .block-views .views-row-42,
@@ -3631,7 +3637,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
     margin-right: 3%;
     margin-left: 3%;
   }
-  /* line 78, ../sass/sl-components/_firmen-landing-page.scss */
+  /* line 85, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .views-row-3, .section-mieter-mgpark .block-views .views-row-6, .section-mieter-mgpark .block-views .views-row-9, .section-mieter-mgpark .block-views .views-row-12, .section-mieter-mgpark .block-views .views-row-15, .section-mieter-mgpark .block-views .views-row-18,
   .section-mieter-mgpark .block-views .views-row-21, .section-mieter-mgpark .block-views .views-row-24, .section-mieter-mgpark .block-views .views-row-27, .section-mieter-mgpark .block-views .views-row-30, .section-mieter-mgpark .block-views .views-row-33, .section-mieter-mgpark .block-views .views-row-36,
   .section-mieter-mgpark .block-views .views-row-39, .section-mieter-mgpark .block-views .views-row-42, .section-mieter-mgpark .block-views .views-row-43,
@@ -3667,13 +3673,13 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   .page-node-63 .block-views .views-row-43 {
     margin-left: 2%;
   }
-  /* line 84, ../sass/sl-components/_firmen-landing-page.scss */
+  /* line 91, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .views-row-last,
   .page-node-44 .block-views .views-row-last,
   .page-node-63 .block-views .views-row-last {
     padding-bottom: 0;
   }
-  /* line 90, ../sass/sl-components/_firmen-landing-page.scss */
+  /* line 98, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .field-name-body p a,
   .page-node-44 .block-views .field-name-body p a,
   .page-node-63 .block-views .field-name-body p a {
@@ -3865,12 +3871,7 @@ footer a:active {
   }
 }
 
-/* line 93, ../sass/sl-components/_front.scss */
-.front .views-row-odd {
-  background-color: #f5f5f5 !important;
-}
-
-/* line 99, ../sass/sl-components/_front.scss */
+/* line 96, ../sass/sl-components/_front.scss */
 .view-mietwohnungen-landing-page h3,
 .front .node-page.view-mode-view_mode_4 h3 {
   text-align: center;
@@ -3878,7 +3879,7 @@ footer a:active {
   margin: .5rem 0;
   color: white;
 }
-/* line 108, ../sass/sl-components/_front.scss */
+/* line 105, ../sass/sl-components/_front.scss */
 .view-mietwohnungen-landing-page .view-empty p,
 .front .node-page.view-mode-view_mode_4 .view-empty p {
   margin-top: 0;
@@ -3886,49 +3887,53 @@ footer a:active {
   background-color: #f5f5f5;
 }
 
-/* line 119, ../sass/sl-components/_front.scss */
+/* line 116, ../sass/sl-components/_front.scss */
 .front .flexslider, .front .flexslider-events {
   background: transparent;
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
-/* line 123, ../sass/sl-components/_front.scss */
+/* line 120, ../sass/sl-components/_front.scss */
 .front .flexslider .flex-direction-nav, .front .flexslider-events .flex-direction-nav,
 .front .flexslider .flex-next,
 .front .flexslider-events .flex-next {
   display: none;
 }
-/* line 128, ../sass/sl-components/_front.scss */
+/* line 125, ../sass/sl-components/_front.scss */
 .front .flexslider .flex-control-nav a, .front .flexslider-events .flex-control-nav a {
   background: #bbbbc5;
 }
-/* line 131, ../sass/sl-components/_front.scss */
+/* line 128, ../sass/sl-components/_front.scss */
 .front .flexslider .flex-control-nav a.flex-active, .front .flexslider-events .flex-control-nav a.flex-active {
   background: white;
 }
-/* line 136, ../sass/sl-components/_front.scss */
+/* line 132, ../sass/sl-components/_front.scss */
+.front .flexslider .views-row-odd, .front .flexslider-events .views-row-odd {
+  background-color: #f5f5f5;
+}
+/* line 135, ../sass/sl-components/_front.scss */
 .front .flexslider .views-row-even, .front .flexslider-events .views-row-even {
   color: white !important;
 }
-/* line 138, ../sass/sl-components/_front.scss */
+/* line 137, ../sass/sl-components/_front.scss */
 .front .flexslider .views-row-even a, .front .flexslider-events .views-row-even a {
   color: white;
 }
-/* line 140, ../sass/sl-components/_front.scss */
+/* line 139, ../sass/sl-components/_front.scss */
 .front .flexslider .views-row-even a:hover, .front .flexslider-events .views-row-even a:hover {
   color: white;
 }
-/* line 145, ../sass/sl-components/_front.scss */
+/* line 144, ../sass/sl-components/_front.scss */
 .front .flexslider .wohnungsdetails, .front .flexslider-events .wohnungsdetails {
   text-align: center;
 }
-/* line 148, ../sass/sl-components/_front.scss */
+/* line 147, ../sass/sl-components/_front.scss */
 .front .flexslider h2, .front .flexslider-events h2 {
   margin-bottom: 24px !important;
   margin-bottom: 1.5rem !important;
   text-align: center;
 }
-/* line 153, ../sass/sl-components/_front.scss */
+/* line 152, ../sass/sl-components/_front.scss */
 .front .flexslider img, .front .flexslider-events img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -3936,35 +3941,35 @@ footer a:active {
   margin-bottom: 24px !important;
   margin-bottom: 1.5rem !important;
 }
-/* line 158, ../sass/sl-components/_front.scss */
+/* line 157, ../sass/sl-components/_front.scss */
 .front .flexslider .miete-wrapper, .front .flexslider-events .miete-wrapper {
   margin-bottom: 24px;
   margin-bottom: 24px;
 }
-/* line 165, ../sass/sl-components/_front.scss */
+/* line 164, ../sass/sl-components/_front.scss */
 .front .flexslider .object, .front .flexslider-events .object {
   margin-right: 6px;
   margin-right: .375rem;
 }
-/* line 170, ../sass/sl-components/_front.scss */
+/* line 169, ../sass/sl-components/_front.scss */
 .front .flexslider .link, .front .flexslider-events .link {
   margin-left: 6px;
   margin-left: .375rem;
 }
-/* line 174, ../sass/sl-components/_front.scss */
+/* line 173, ../sass/sl-components/_front.scss */
 .front .flexslider .mietobjekt-link, .front .flexslider-events .mietobjekt-link,
 .front .flexslider .wohnungsdetails-link,
 .front .flexslider-events .wohnungsdetails-link {
   margin: 24px 0;
   margin: 1.5rem 0;
 }
-/* line 179, ../sass/sl-components/_front.scss */
+/* line 178, ../sass/sl-components/_front.scss */
 .front .flexslider .padding-front, .front .flexslider-events .padding-front {
   padding: 0 16px;
   padding: 0 1rem;
 }
 
-/* line 189, ../sass/sl-components/_front.scss */
+/* line 188, ../sass/sl-components/_front.scss */
 .front .field-name-field-image img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -3981,36 +3986,36 @@ footer a:active {
   display: table;
   clear: both;
 }
-/* line 195, ../sass/sl-components/_front.scss */
+/* line 194, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .panel-col-first {
   clear: both !important;
   width: 49%;
 }
 @media (max-width: 767px) {
-  /* line 195, ../sass/sl-components/_front.scss */
+  /* line 194, ../sass/sl-components/_front.scss */
   .front .center-wrapper.two .panel-col-first {
     width: 100%;
   }
 }
-/* line 203, ../sass/sl-components/_front.scss */
+/* line 202, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .panel-col-last {
   width: 49%;
   margin-left: 2%;
 }
 @media (max-width: 767px) {
-  /* line 203, ../sass/sl-components/_front.scss */
+  /* line 202, ../sass/sl-components/_front.scss */
   .front .center-wrapper.two .panel-col-last {
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 212, ../sass/sl-components/_front.scss */
+/* line 211, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .node {
   margin-bottom: 0;
   padding-bottom: 0;
   border: 0;
 }
-/* line 217, ../sass/sl-components/_front.scss */
+/* line 216, ../sass/sl-components/_front.scss */
 .front .center-wrapper.two .node .field-name-body a.more-link {
   display: block;
   text-align: left;
