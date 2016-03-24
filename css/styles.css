@@ -4914,31 +4914,32 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
 .view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-zugang-bueroflaechen,
 .view-firmen-mietobjekt .views-field-field-zugang-lagerflaechen,
 .view-firmen-mietobjekt .views-field-field-zugang-bueroflaechen {
-  width: 40px;
-  width: 2.5rem;
+  width: 52px;
+  width: 3.25rem;
   color: white;
-  padding: 4px 0 4px 10px;
-  padding: .25rem 0 .25rem .625rem;
+  padding: 4px 0 4px;
+  padding: .25rem 0 .25rem;
+  text-align: center;
 }
-/* line 39, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 44, ../sass/sl-components/_uebersicht-mgpark.scss */
 .view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-zugang-lagerflaechen,
 .view-firmen-mietobjekt .views-field-field-zugang-lagerflaechen {
   background-color: #09599e;
   font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
 }
-/* line 43, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 48, ../sass/sl-components/_uebersicht-mgpark.scss */
 .view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-zugang-bueroflaechen,
 .view-firmen-mietobjekt .views-field-field-zugang-bueroflaechen {
   background-color: #464a4b;
   font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
 }
-/* line 48, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 53, ../sass/sl-components/_uebersicht-mgpark.scss */
 .view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-firma-mieter > .field-content,
 .view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content {
-  width: 280px;
-  width: 17.5rem;
+  width: 268px;
+  width: 16.75rem;
 }
-/* line 51, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 58, ../sass/sl-components/_uebersicht-mgpark.scss */
 .view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-firma-mieter > .field-content a,
 .view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content a {
   font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
@@ -4952,7 +4953,7 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
   -webkit-transition-duration: 0.75s;
   transition-duration: 0.75s;
 }
-/* line 60, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 67, ../sass/sl-components/_uebersicht-mgpark.scss */
 .view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-firma-mieter > .field-content a:hover,
 .view-firmen-mietobjekt .views-field-field-firma-mieter > .field-content a:hover {
   font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
@@ -4961,7 +4962,7 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
   color: white;
 }
 
-/* line 72, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 79, ../sass/sl-components/_uebersicht-mgpark.scss */
 .views-row.B1:before {
   font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
   content: "mgp büro";
@@ -4971,25 +4972,25 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
   margin-bottom: 1rem;
 }
 @media (min-width: 769px) {
-  /* line 71, ../sass/sl-components/_uebersicht-mgpark.scss */
+  /* line 78, ../sass/sl-components/_uebersicht-mgpark.scss */
   .views-row.B1 {
     margin-top: 5rem;
     margin-top: 80px;
   }
 }
 
-/* line 89, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 96, ../sass/sl-components/_uebersicht-mgpark.scss */
 .views-row.B1 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B2 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B3 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B4 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B5 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B6 .views-field-field-firma-mieter > .field-content a:hover, .views-row.B7 .views-field-field-firma-mieter > .field-content a:hover {
   background-color: #464a4b;
 }
 
-/* line 101, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 108, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .field-name-field-image img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 110, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 117, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .pane__title {
   margin-top: 0;
   margin-bottom: 0;
@@ -5005,25 +5006,25 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
   display: table;
   clear: both;
 }
-/* line 119, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 126, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-first {
   width: 68%;
 }
 @media (max-width: 767px) {
-  /* line 119, ../sass/sl-components/_uebersicht-mgpark.scss */
+  /* line 126, ../sass/sl-components/_uebersicht-mgpark.scss */
   .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-first {
     width: 100%;
     margin-bottom: 24px;
     margin-bottom: 1.5rem;
   }
 }
-/* line 128, ../sass/sl-components/_uebersicht-mgpark.scss */
+/* line 135, ../sass/sl-components/_uebersicht-mgpark.scss */
 .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-last {
   width: 30%;
   margin-left: 2%;
 }
 @media (max-width: 767px) {
-  /* line 128, ../sass/sl-components/_uebersicht-mgpark.scss */
+  /* line 135, ../sass/sl-components/_uebersicht-mgpark.scss */
   .page-uebersicht-mgpark .panel-2col-stacked .center-wrapper .panel-col-last {
     width: 100%;
     margin-left: 0;
