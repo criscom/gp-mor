@@ -264,10 +264,60 @@
 	"buffers":
 	[
 		{
-			"file": "config.rb",
+			"file": "sass/sl-components/_mietobjekte-detail-page.scss",
 			"settings":
 			{
-				"buffer_size": 1161,
+				"buffer_size": 4534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 144289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css.map",
+			"settings":
+			{
+				"buffer_size": 47909,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/sl-components/_mietobjekte-landing-page.scss",
+			"settings":
+			{
+				"buffer_size": 3422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 7820 files for \"#002e7a\"\n\n~/Documents/github/mgpark.at/.sass-cache/306d839397fcb8cb02e561723192b806516cd5a8/_variables.scssc:\n    <binary>\n\n~/Documents/github/mgpark.at/.sass-cache/a7cc05c706d3326c8fe02cd3d584824fc770971e/_variables.scssc:\n    <binary>\n\n/Users/criscom/Documents/github/mgpark.at/css/styles.css:\n 3648  .link a:hover,\n 3649  .field-slideshow-caption-text a:hover {\n 3650:   color: #002e7a;\n 3651  }\n 3652  /* line 14, ../sass/library/_link.scss */\n ....\n 4101  /* line 13, ../sass/library/_link.scss */\n 4102  ul.nice-menu li a:hover {\n 4103:   color: #002e7a !important;\n 4104  }\n 4105  /* line 14, ../sass/library/_link.scss */\n ....\n 4137  /* line 80, ../sass/sl-components/_main-menu-desktop.scss */\n 4138  ul.nice-menu li.active-trail a:hover {\n 4139:   color: #002e7a !important;\n 4140  }\n 4141  \n ....\n 4161  /* line 13, ../sass/library/_link.scss */\n 4162  ul.nice-menu ul li a:hover {\n 4163:   color: #002e7a;\n 4164  }\n 4165  /* line 14, ../sass/library/_link.scss */\n ....\n 4824  .view-mietobjekt-firmen-overview.view-display-id-block .views-field-field-zugang-lagerflaechen,\n 4825  .view-firmen-mietobjekt .views-field-field-zugang-lagerflaechen {\n 4826:   background-color: #002e7a;\n 4827    font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;\n 4828  }\n ....\n 4858    font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;\n 4859    text-decoration: none;\n 4860:   background-color: #002e7a;\n 4861    color: white;\n 4862  }\n ....\n 4866    font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;\n 4867    content: \"mgp büro\";\n 4868:   color: #002e7a;\n 4869    font-weight: 600;\n 4870    margin-bottom: 16px;\n\n/Users/criscom/Documents/github/mgpark.at/sass/_variables.scss:\n  123  $yellow: rgb(255,255,0);\n  124  $red: rgb(255,0,0);\n  125: $blue: rgb(0,46,122); // #002e7a;\n  126  $black: #231f20;\n  127  $header-color: #d9d4d1;\n\n12 matches across 4 files\n\n\nSearching 7820 files for \"$blue\"\n\n~/Documents/github/mgpark.at/.sass-cache/196233d952fb9bf1bab7e17defe06f29426a28fc/_fonts.scssc:\n    <binary>\n\n~/Documents/github/mgpark.at/.sass-cache/196233d952fb9bf1bab7e17defe06f29426a28fc/_main-menu-desktop.scssc:\n    <binary>\n\n~/Documents/github/mgpark.at/.sass-cache/306d839397fcb8cb02e561723192b806516cd5a8/_variables.scssc:\n    <binary>\n\n~/Documents/github/mgpark.at/.sass-cache/5f8e504c7851de183bad5cdc80cffd8cbb4e9b97/_fonts.scssc:\n    <binary>\n\n~/Documents/github/mgpark.at/.sass-cache/5f8e504c7851de183bad5cdc80cffd8cbb4e9b97/_main-menu-desktop.scssc:\n    <binary>\n\n~/Documents/github/mgpark.at/.sass-cache/5f8e504c7851de183bad5cdc80cffd8cbb4e9b97/_uebersicht-mgpark.scssc:\n    <binary>\n\n~/Documents/github/mgpark.at/.sass-cache/a7cc05c706d3326c8fe02cd3d584824fc770971e/_variables.scssc:\n    <binary>\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/README.md:\n   86  \n   87  ```scss\n   88: $blue: #3bbfce;\n   89  $margin: 16px;\n   90  ```\n   ..\n   96  \n   97  .content-navigation {\n   98:   border-color: $blue;\n   99    color:\n  100:     darken($blue, 9%);\n  101  }\n  102  \n  ...\n  104    padding: $margin / 2;\n  105    margin: $margin / 2;\n  106:   border-color: $blue;\n  107  }\n  108  ```\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/src/libsass/functions.cpp:\n  154      ////////////////\n  155  \n  156:     Signature rgb_sig = \"rgb($red, $green, $blue)\";\n  157      BUILT_IN(rgb)\n  158      {\n  ...\n  161                                   ARGR(\"$red\",   Number, 0, 255)->value(),\n  162                                   ARGR(\"$green\", Number, 0, 255)->value(),\n  163:                                  ARGR(\"$blue\",  Number, 0, 255)->value());\n  164      }\n  165  \n  166:     Signature rgba_4_sig = \"rgba($red, $green, $blue, $alpha)\";\n  167      BUILT_IN(rgba_4)\n  168      {\n  ...\n  171                                   ARGR(\"$red\",   Number, 0, 255)->value(),\n  172                                   ARGR(\"$green\", Number, 0, 255)->value(),\n  173:                                  ARGR(\"$blue\",  Number, 0, 255)->value(),\n  174                                   ARGR(\"$alpha\", Number, 0, 1)->value());\n  175      }\n  ...\n  570      ////////////////////////\n  571  \n  572:     Signature adjust_color_sig = \"adjust-color($color, $red: false, $green: false, $blue: false, $hue: false, $saturation: false, $lightness: false, $alpha: false)\";\n  573      BUILT_IN(adjust_color)\n  574      {\n  ...\n  576        Number* r = dynamic_cast<Number*>(env[\"$red\"]);\n  577        Number* g = dynamic_cast<Number*>(env[\"$green\"]);\n  578:       Number* b = dynamic_cast<Number*>(env[\"$blue\"]);\n  579        Number* h = dynamic_cast<Number*>(env[\"$hue\"]);\n  580        Number* s = dynamic_cast<Number*>(env[\"$saturation\"]);\n  ...\n  619      }\n  620  \n  621:     Signature scale_color_sig = \"scale-color($color, $red: false, $green: false, $blue: false, $hue: false, $saturation: false, $lightness: false, $alpha: false)\";\n  622      BUILT_IN(scale_color)\n  623      {\n  ...\n  625        Number* r = dynamic_cast<Number*>(env[\"$red\"]);\n  626        Number* g = dynamic_cast<Number*>(env[\"$green\"]);\n  627:       Number* b = dynamic_cast<Number*>(env[\"$blue\"]);\n  628        Number* h = dynamic_cast<Number*>(env[\"$hue\"]);\n  629        Number* s = dynamic_cast<Number*>(env[\"$saturation\"]);\n  ...\n  640          double rscale = (r ? ARGR(\"$red\",   Number, -100.0, 100.0)->value() : 0.0) / 100.0;\n  641          double gscale = (g ? ARGR(\"$green\", Number, -100.0, 100.0)->value() : 0.0) / 100.0;\n  642:         double bscale = (b ? ARGR(\"$blue\",  Number, -100.0, 100.0)->value() : 0.0) / 100.0;\n  643          double ascale = (a ? ARGR(\"$alpha\", Number, -100.0, 100.0)->value() : 0.0) / 100.0;\n  644          return new (ctx.mem) Color(path,\n  ...\n  675      }\n  676  \n  677:     Signature change_color_sig = \"change-color($color, $red: false, $green: false, $blue: false, $hue: false, $saturation: false, $lightness: false, $alpha: false)\";\n  678      BUILT_IN(change_color)\n  679      {\n  ...\n  681        Number* r = dynamic_cast<Number*>(env[\"$red\"]);\n  682        Number* g = dynamic_cast<Number*>(env[\"$green\"]);\n  683:       Number* b = dynamic_cast<Number*>(env[\"$blue\"]);\n  684        Number* h = dynamic_cast<Number*>(env[\"$hue\"]);\n  685        Number* s = dynamic_cast<Number*>(env[\"$saturation\"]);\n  ...\n  698                                     r ? ARGR(\"$red\",   Number, 0, 255)->value() : color->r(),\n  699                                     g ? ARGR(\"$green\", Number, 0, 255)->value() : color->g(),\n  700:                                    b ? ARGR(\"$blue\",  Number, 0, 255)->value() : color->b(),\n  701                                     a ? ARGR(\"$alpha\", Number, 0, 255)->value() : color->a());\n  702        }\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/test/fixtures/spec/spec/basic/21_one_builtin_function/input.scss:\n    1  div {\n    2:   color: rgb(255, $blue: 0, $green: 255);\n    3    background: rgb(123, 45, 6);\n    4  }\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/test/fixtures/spec/spec/basic/22_colors_with_alpha/input.scss:\n    2  \n    3  div {\n    4:   color: rgb(255, $blue: 0, $green: 255);\n    5    background: rgb(123, 45, 6);\n    6    flah: rgba(0, 0, 0, 1) + #111;\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/test/fixtures/spec/spec/libsass/bourbon/lib/addons/_button.scss:\n  112  @mixin shiny($base-color, $grayscale: false) {\n  113    $color:         hsl(0, 0, 100%);\n  114:   $border:        adjust-color($base-color, $red: -117, $green: -111, $blue: -81);\n  115:   $border-bottom: adjust-color($base-color, $red: -126, $green: -127, $blue: -122);\n  116:   $fourth-stop:   adjust-color($base-color, $red: -79,  $green: -70,  $blue: -46);\n  117:   $inset-shadow:  adjust-color($base-color, $red:  37,  $green:  29,  $blue:  12);\n  118:   $second-stop:   adjust-color($base-color, $red: -56,  $green: -50,  $blue: -33);\n  119:   $text-shadow:   adjust-color($base-color, $red: -140, $green: -141, $blue: -114);\n  120:   $third-stop:    adjust-color($base-color, $red: -86,  $green: -75,  $blue: -48);\n  121  \n  122    @if lightness($base-color) > 70% {\n  ...\n  150  \n  151    &:hover:not(:disabled) {\n  152:     $first-stop-hover:  adjust-color($base-color, $red: -13, $green: -15, $blue: -18);\n  153:     $second-stop-hover: adjust-color($base-color, $red: -66, $green: -62, $blue: -51);\n  154:     $third-stop-hover:  adjust-color($base-color, $red: -93, $green: -85, $blue: -66);\n  155:     $fourth-stop-hover: adjust-color($base-color, $red: -86, $green: -80, $blue: -63);\n  156  \n  157      @if $grayscale == true {\n  ...\n  170  \n  171    &:active:not(:disabled) {\n  172:     $inset-shadow-active: adjust-color($base-color, $red: -111, $green: -116, $blue: -122);\n  173  \n  174      @if $grayscale == true {\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/test/fixtures/spec/spec/libsass-todo-tests/libsass/scale/input.scss:\n    2    color: scale-color(red, $red: -23%);\n    3    color: scale-color(hsl(120, 70, 80), $lightness: 50%);\n    4:   color: scale-color(rgb(200, 150, 170), $green: -40%, $blue: 70%);\n    5    color: scale-color(hsl(200, 70, 80), $saturation: -90%, $alpha: 10%);\n    6    blah: #d4f7d4;\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/test/fixtures/spec/spec/libsass-todo-tests/libsass/test/input.scss:\n   23    d: join(1 2 3, 4 5 6, comma);\n   24    e: join(a b c, d e f);\n   25:   f: change-color(#102030, $blue: 5);\n   26:   g: change-color(#102030, $red: 120, $blue: 5);\n   27    h: hsl(25, 100%, 80%);\n   28    h: change-color(#ffc499, $alpha: 0.8, $lightness: 40%);\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/test/fixtures/spec/spec/scss/alpha/input.scss:\n    2  \n    3  div {\n    4:   color: rgb(255, $blue: 0, $green: 255);\n    5    background: rgb(123, 45, 6);\n    6  //  flah: rgba(0, 0, 0, 1) + #111;\n\n/Users/criscom/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/test/fixtures/spec/spec/scss-tests/103_test_function_var_args_passed_to_native/input.scss:\n    3  }\n    4  \n    5: .foo {val: foo(#102030, $blue: 5)}\n    6  \n\n~/Documents/github/mgpark.at/node_modules/gulp-sass/node_modules/node-sass/vendor/darwin-x64-node-0.10/binding.node:\n    <binary>\n\n/Users/criscom/Documents/github/mgpark.at/sass/_variables.scss:\n  123  $yellow: rgb(255,255,0);\n  124  $red: rgb(255,0,0);\n  125: $blue: rgb(9,89,158); // rgb(0,46,122); // #002e7a;\n  126  $black: #231f20;\n  127  $header-color: #d9d4d1;\n\n/Users/criscom/Documents/github/mgpark.at/sass/sl-components/_fonts.scss:\n   34  .inline-link\n   35  {\n   36:     @include link-colors($normal: $black, $hover: $blue, $visited: lighten($black, 10%));\n   37      text-decoration: underline;\n   38      @extend %base-font-weight;\n\n/Users/criscom/Documents/github/mgpark.at/sass/sl-components/_main-menu-desktop.scss:\n   59  \n   60          @extend %base-font-size;\n   61:         @include link-colors($normal: $black, $hover: $blue !important);\n   62          @extend %base-font-weight;\n   63          // padding-right: 0 !important;\n   ..\n   79              color: $black;\n   80              &:hover {\n   81:                 color: $blue !important;\n   82              }\n   83              }\n   ..\n  110              text-decoration: none;\n  111  \n  112:             @include link-colors($normal: black, $hover: $blue, $visited: black, $active: $red);\n  113          }\n  114      }\n\n/Users/criscom/Documents/github/mgpark.at/sass/sl-components/_uebersicht-mgpark.scss:\n   38      }\n   39      .views-field-field-zugang-lagerflaechen {\n   40:         background-color: $blue;\n   41          font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;\n   42      }\n   ..\n   60                  font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;\n   61                  text-decoration: none;\n   62:                 background-color: $blue;\n   63                  color: white;\n   64              }\n   ..\n   72          font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;\n   73          content: \"mgp büro\";\n   74:         color: $blue;\n   75          font-weight: 600;\n   76          margin-bottom: 16px;\n\n62 matches across 21 files\n",
+			"settings":
+			{
+				"buffer_size": 12376,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "sass/sl-components/_uebersicht-mgpark.scss",
+			"settings":
+			{
+				"buffer_size": 3570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 5916,
 				"line_ending": "Unix"
 			}
 		}
@@ -345,7 +395,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/MAMP/htdocs/drupalmaster2014-mgpark.at"
+		"/Users/criscom/Documents/github/mgpark.at",
+		"/Users/criscom/Documents/github/mgpark.at/css",
+		"/Users/criscom/Documents/github/mgpark.at/sass",
+		"/Users/criscom/Documents/github/mgpark.at/sass/library",
+		"/Users/criscom/Documents/github/mgpark.at/sass/sl-components"
 	],
 	"file_history":
 	[
@@ -429,7 +483,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -444,6 +498,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$blue",
+			"#002e7a",
 			".panels-flexible-1",
 			"padding-left: 0;",
 			".panels-flexible-region-inside-first",
@@ -569,9 +625,7 @@
 			"input",
 			"footer",
 			".view-frontpage-consultant-spotlight .rsDefault .rsOverflow",
-			".read-more",
-			"%button",
-			"read-more"
+			".read-more"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -590,16 +644,50 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config.rb",
-					"semi_transient": true,
+					"file": "sass/sl-components/_mietobjekte-detail-page.scss",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1161,
+						"buffer_size": 4534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								936,
+								936
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 413.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 144289,
 						"regions":
 						{
 						},
@@ -612,16 +700,406 @@
 						],
 						"settings":
 						{
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "ruby",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light).tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/styles.css.map",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/sl-components/_mietobjekte-landing-page.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1686,
+								1688
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 988.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12376,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										407,
+										414
+									],
+									[
+										578,
+										585
+									],
+									[
+										792,
+										799
+									],
+									[
+										936,
+										943
+									],
+									[
+										1212,
+										1219
+									],
+									[
+										1437,
+										1444
+									],
+									[
+										1601,
+										1608
+									],
+									[
+										1823,
+										1830
+									],
+									[
+										2870,
+										2875
+									],
+									[
+										2985,
+										2990
+									],
+									[
+										3026,
+										3031
+									],
+									[
+										3145,
+										3150
+									],
+									[
+										3374,
+										3379
+									],
+									[
+										3635,
+										3640
+									],
+									[
+										3746,
+										3751
+									],
+									[
+										4018,
+										4023
+									],
+									[
+										4286,
+										4291
+									],
+									[
+										4598,
+										4603
+									],
+									[
+										4852,
+										4857
+									],
+									[
+										5163,
+										5168
+									],
+									[
+										5548,
+										5553
+									],
+									[
+										5869,
+										5874
+									],
+									[
+										6181,
+										6186
+									],
+									[
+										6578,
+										6583
+									],
+									[
+										6935,
+										6940
+									],
+									[
+										7204,
+										7209
+									],
+									[
+										7633,
+										7638
+									],
+									[
+										7723,
+										7728
+									],
+									[
+										7814,
+										7819
+									],
+									[
+										7904,
+										7909
+									],
+									[
+										7994,
+										7999
+									],
+									[
+										8084,
+										8089
+									],
+									[
+										8175,
+										8180
+									],
+									[
+										8369,
+										8374
+									],
+									[
+										8463,
+										8468
+									],
+									[
+										8557,
+										8562
+									],
+									[
+										8651,
+										8656
+									],
+									[
+										8842,
+										8847
+									],
+									[
+										9230,
+										9235
+									],
+									[
+										9608,
+										9613
+									],
+									[
+										9664,
+										9669
+									],
+									[
+										9954,
+										9959
+									],
+									[
+										10286,
+										10291
+									],
+									[
+										10567,
+										10572
+									],
+									[
+										10835,
+										10840
+									],
+									[
+										11148,
+										11153
+									],
+									[
+										11355,
+										11360
+									],
+									[
+										11535,
+										11540
+									],
+									[
+										11791,
+										11796
+									],
+									[
+										12066,
+										12071
+									],
+									[
+										12272,
+										12277
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1916,
+								1916
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light).tmTheme",
+							"default_dir": "/Users/criscom/Documents/github/mgpark.at",
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 2,
+							"remote_loading": false,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"synced": false,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5849.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/sl-components/_uebersicht-mgpark.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2533,
+								2533
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 733.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "sass/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								5916
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Light).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1811.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -647,11 +1125,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -671,7 +1156,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 0.0
+		"height": 118.0
 	},
 	"pinned_build_system": "",
 	"project": "mgpark.sublime-project",
@@ -759,7 +1244,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

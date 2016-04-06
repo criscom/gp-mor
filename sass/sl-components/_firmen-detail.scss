@@ -7,8 +7,8 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
 */
 
 #firmen,
-.node-firmen
-{
+.node-firmen {
+
     @extend %base-background;
     margin-top: 32px;
     h2 {
@@ -17,12 +17,17 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
         font-size: 2rem;
     }
 
+    .views-field-field-zugang-ergaenzung {
+        margin-left: 16px;
+    }
+
     .panel-col-first,
     .panel-col-last,
     .group-left,
     .group-right {
         width: 49%;
     }
+    
     .panel-col-first,
     .group-left {
         margin-right: 2%;

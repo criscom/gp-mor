@@ -3394,6 +3394,11 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   font-size: 2rem;
 }
 /* line 20, ../sass/sl-components/_firmen-detail.scss */
+#firmen .views-field-field-zugang-ergaenzung,
+.node-firmen .views-field-field-zugang-ergaenzung {
+  margin-left: 16px;
+}
+/* line 24, ../sass/sl-components/_firmen-detail.scss */
 #firmen .panel-col-first,
 #firmen .panel-col-last,
 #firmen .group-left,
@@ -3404,14 +3409,14 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
 .node-firmen .group-right {
   width: 49%;
 }
-/* line 26, ../sass/sl-components/_firmen-detail.scss */
+/* line 31, ../sass/sl-components/_firmen-detail.scss */
 #firmen .panel-col-first,
 #firmen .group-left,
 .node-firmen .panel-col-first,
 .node-firmen .group-left {
   margin-right: 2%;
 }
-/* line 29, ../sass/sl-components/_firmen-detail.scss */
+/* line 34, ../sass/sl-components/_firmen-detail.scss */
 #firmen .panel-col-first .field-name-field-logo,
 #firmen .group-left .field-name-field-logo,
 .node-firmen .panel-col-first .field-name-field-logo,
@@ -3419,7 +3424,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   margin-bottom: 16px;
   margin-bottom: 1rem;
 }
-/* line 35, ../sass/sl-components/_firmen-detail.scss */
+/* line 40, ../sass/sl-components/_firmen-detail.scss */
 #firmen .panel-col-first .field-name-field-logo img,
 #firmen .panel-col-first .field-name-field-firmen-bild img,
 #firmen .group-left .field-name-field-logo img,
@@ -3433,14 +3438,14 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   border-radius: 4px;
 }
 @media (max-width: 568px) {
-  /* line 42, ../sass/sl-components/_firmen-detail.scss */
+  /* line 47, ../sass/sl-components/_firmen-detail.scss */
   #firmen .panel-col-first,
   #firmen .group-left,
   .node-firmen .panel-col-first,
   .node-firmen .group-left {
     width: 100%;
   }
-  /* line 47, ../sass/sl-components/_firmen-detail.scss */
+  /* line 52, ../sass/sl-components/_firmen-detail.scss */
   #firmen .panel-col-last,
   #firmen .group-right,
   .node-firmen .panel-col-last,
@@ -3449,7 +3454,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
     margin-right: 0;
   }
 }
-/* line 54, ../sass/sl-components/_firmen-detail.scss */
+/* line 59, ../sass/sl-components/_firmen-detail.scss */
 #firmen .views-label,
 #firmen .label-inline,
 #firmen .label-above,
@@ -3475,39 +3480,39 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
 /* line 20, ../sass/sl-components/_firmen-landing-page.scss */
 .section-mieter-mgpark .block-views .views-row,
 .page-node-44 .block-views .views-row,
-.page-node-63 .block-views .views-row {
+.page-node-63ie .block-views .views-row {
   width: 100%;
   border-top: 1px solid black;
 }
 /* line 33, ../sass/sl-components/_firmen-landing-page.scss */
 .section-mieter-mgpark .block-views h2 a,
 .page-node-44 .block-views h2 a,
-.page-node-63 .block-views h2 a {
+.page-node-63ie .block-views h2 a {
   text-decoration: none;
   color: black;
 }
 /* line 13, ../sass/library/_link.scss */
 .section-mieter-mgpark .block-views h2 a:hover,
 .page-node-44 .block-views h2 a:hover,
-.page-node-63 .block-views h2 a:hover {
+.page-node-63ie .block-views h2 a:hover {
   color: red;
 }
 /* line 14, ../sass/library/_link.scss */
 .section-mieter-mgpark .block-views h2 a:visited,
 .page-node-44 .block-views h2 a:visited,
-.page-node-63 .block-views h2 a:visited {
+.page-node-63ie .block-views h2 a:visited {
   color: black;
 }
 /* line 15, ../sass/library/_link.scss */
 .section-mieter-mgpark .block-views h2 a:active,
 .page-node-44 .block-views h2 a:active,
-.page-node-63 .block-views h2 a:active {
+.page-node-63ie .block-views h2 a:active {
   color: black;
 }
 /* line 40, ../sass/sl-components/_firmen-landing-page.scss */
 .section-mieter-mgpark .block-views .block__title,
 .page-node-44 .block-views .block__title,
-.page-node-63 .block-views .block__title {
+.page-node-63ie .block-views .block__title {
   clear: both;
   font-size: 24px;
   padding-top: 48px;
@@ -3518,14 +3523,14 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
 /* line 47, ../sass/sl-components/_firmen-landing-page.scss */
 #block-views-partnerinnen-block-1 .section-mieter-mgpark .block-views .block__title, #block-views-partnerinnen-block-1
 .page-node-44 .block-views .block__title, #block-views-partnerinnen-block-1
-.page-node-63 .block-views .block__title {
+.page-node-63ie .block-views .block__title {
   padding-top: 0;
 }
 @media (min-width: 769px) {
   /* line 54, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .views-row,
   .page-node-44 .block-views .views-row,
-  .page-node-63 .block-views .views-row {
+  .page-node-63ie .block-views .views-row {
     float: left;
     width: 30%;
   }
@@ -3548,21 +3553,21 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   .page-node-44 .block-views .views-row-37,
   .page-node-44 .block-views .views-row-40,
   .page-node-44 .block-views .views-row-41,
-  .page-node-63 .block-views .views-row-1,
-  .page-node-63 .block-views .views-row-4,
-  .page-node-63 .block-views .views-row-7,
-  .page-node-63 .block-views .views-row-10,
-  .page-node-63 .block-views .views-row-13,
-  .page-node-63 .block-views .views-row-16,
-  .page-node-63 .block-views .views-row-19,
-  .page-node-63 .block-views .views-row-22,
-  .page-node-63 .block-views .views-row-25,
-  .page-node-63 .block-views .views-row-28,
-  .page-node-63 .block-views .views-row-31,
-  .page-node-63 .block-views .views-row-34,
-  .page-node-63 .block-views .views-row-37,
-  .page-node-63 .block-views .views-row-40,
-  .page-node-63 .block-views .views-row-41 {
+  .page-node-63ie .block-views .views-row-1,
+  .page-node-63ie .block-views .views-row-4,
+  .page-node-63ie .block-views .views-row-7,
+  .page-node-63ie .block-views .views-row-10,
+  .page-node-63ie .block-views .views-row-13,
+  .page-node-63ie .block-views .views-row-16,
+  .page-node-63ie .block-views .views-row-19,
+  .page-node-63ie .block-views .views-row-22,
+  .page-node-63ie .block-views .views-row-25,
+  .page-node-63ie .block-views .views-row-28,
+  .page-node-63ie .block-views .views-row-31,
+  .page-node-63ie .block-views .views-row-34,
+  .page-node-63ie .block-views .views-row-37,
+  .page-node-63ie .block-views .views-row-40,
+  .page-node-63ie .block-views .views-row-41 {
     clear: left;
     margin-right: 2%;
   }
@@ -3585,21 +3590,21 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   .page-node-44 .block-views .views-row-40,
   .page-node-44 .block-views .views-row-41,
   .page-node-44 .block-views .views-row-42,
-  .page-node-63 .block-views .views-row-2,
-  .page-node-63 .block-views .views-row-5,
-  .page-node-63 .block-views .views-row-8,
-  .page-node-63 .block-views .views-row-11,
-  .page-node-63 .block-views .views-row-14,
-  .page-node-63 .block-views .views-row-17,
-  .page-node-63 .block-views .views-row-20,
-  .page-node-63 .block-views .views-row-23,
-  .page-node-63 .block-views .views-row-26,
-  .page-node-63 .block-views .views-row-29,
-  .page-node-63 .block-views .views-row-32,
-  .page-node-63 .block-views .views-row-35,
-  .page-node-63 .block-views .views-row-40,
-  .page-node-63 .block-views .views-row-41,
-  .page-node-63 .block-views .views-row-42 {
+  .page-node-63ie .block-views .views-row-2,
+  .page-node-63ie .block-views .views-row-5,
+  .page-node-63ie .block-views .views-row-8,
+  .page-node-63ie .block-views .views-row-11,
+  .page-node-63ie .block-views .views-row-14,
+  .page-node-63ie .block-views .views-row-17,
+  .page-node-63ie .block-views .views-row-20,
+  .page-node-63ie .block-views .views-row-23,
+  .page-node-63ie .block-views .views-row-26,
+  .page-node-63ie .block-views .views-row-29,
+  .page-node-63ie .block-views .views-row-32,
+  .page-node-63ie .block-views .views-row-35,
+  .page-node-63ie .block-views .views-row-40,
+  .page-node-63ie .block-views .views-row-41,
+  .page-node-63ie .block-views .views-row-42 {
     margin-right: 3%;
     margin-left: 3%;
   }
@@ -3622,33 +3627,33 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   .page-node-44 .block-views .views-row-39,
   .page-node-44 .block-views .views-row-42,
   .page-node-44 .block-views .views-row-43,
-  .page-node-63 .block-views .views-row-3,
-  .page-node-63 .block-views .views-row-6,
-  .page-node-63 .block-views .views-row-9,
-  .page-node-63 .block-views .views-row-12,
-  .page-node-63 .block-views .views-row-15,
-  .page-node-63 .block-views .views-row-18,
-  .page-node-63 .block-views .views-row-21,
-  .page-node-63 .block-views .views-row-24,
-  .page-node-63 .block-views .views-row-27,
-  .page-node-63 .block-views .views-row-30,
-  .page-node-63 .block-views .views-row-33,
-  .page-node-63 .block-views .views-row-36,
-  .page-node-63 .block-views .views-row-39,
-  .page-node-63 .block-views .views-row-42,
-  .page-node-63 .block-views .views-row-43 {
+  .page-node-63ie .block-views .views-row-3,
+  .page-node-63ie .block-views .views-row-6,
+  .page-node-63ie .block-views .views-row-9,
+  .page-node-63ie .block-views .views-row-12,
+  .page-node-63ie .block-views .views-row-15,
+  .page-node-63ie .block-views .views-row-18,
+  .page-node-63ie .block-views .views-row-21,
+  .page-node-63ie .block-views .views-row-24,
+  .page-node-63ie .block-views .views-row-27,
+  .page-node-63ie .block-views .views-row-30,
+  .page-node-63ie .block-views .views-row-33,
+  .page-node-63ie .block-views .views-row-36,
+  .page-node-63ie .block-views .views-row-39,
+  .page-node-63ie .block-views .views-row-42,
+  .page-node-63ie .block-views .views-row-43 {
     margin-left: 2%;
   }
   /* line 84, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .views-row-last,
   .page-node-44 .block-views .views-row-last,
-  .page-node-63 .block-views .views-row-last {
+  .page-node-63ie .block-views .views-row-last {
     padding-bottom: 0;
   }
   /* line 90, ../sass/sl-components/_firmen-landing-page.scss */
   .section-mieter-mgpark .block-views .field-name-body p a,
   .page-node-44 .block-views .field-name-body p a,
-  .page-node-63 .block-views .field-name-body p a {
+  .page-node-63ie .block-views .field-name-body p a {
     text-transform: uppercase;
   }
 }
