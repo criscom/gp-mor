@@ -3410,18 +3410,54 @@ view-id-mietobjekt_firmen_overview
 view-display-id-panel_pane_1 
 view-dom-id-7147b762c0e385af1939dee4d810de0d
 */
-/* line 9, ../sass/sl-components/_firmen-detail.scss */
+/* line 6, ../sass/library/_clearfix.scss */
+.node-type-firmen .view-mietobjekt-firmen-overview:before {
+  content: '';
+  display: table;
+}
+/* line 11, ../sass/library/_clearfix.scss */
+.node-type-firmen .view-mietobjekt-firmen-overview:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 13, ../sass/sl-components/_firmen-detail.scss */
+.node-type-firmen .view-mietobjekt-firmen-overview .views-row {
+  clear: left;
+}
+/* line 18, ../sass/sl-components/_firmen-detail.scss */
+.node-type-firmen .views-field-field-zugang-bueroflaechen,
+.node-type-firmen .views-field-field-zugang-lagerflaechen {
+  width: 120px !important;
+  display: block;
+  float: left;
+}
+/* line 24, ../sass/sl-components/_firmen-detail.scss */
+.node-type-firmen .views-field-field-zugang-ergaenzung {
+  float: left;
+}
+/* line 28, ../sass/sl-components/_firmen-detail.scss */
+.node-type-firmen .field-name-field-zugang {
+  margin: 12px 0;
+}
+
+/* line 34, ../sass/sl-components/_firmen-detail.scss */
+body.partner .field-name-field-zugang {
+  display: none;
+}
+
+/* line 39, ../sass/sl-components/_firmen-detail.scss */
 #firmen,
 .node-firmen {
   margin-top: 32px;
 }
-/* line 14, ../sass/sl-components/_firmen-detail.scss */
+/* line 43, ../sass/sl-components/_firmen-detail.scss */
 #firmen h2,
 .node-firmen h2 {
   font-size: 32px;
   font-size: 2rem;
 }
-/* line 20, ../sass/sl-components/_firmen-detail.scss */
+/* line 49, ../sass/sl-components/_firmen-detail.scss */
 #firmen .panel-col-first,
 #firmen .panel-col-last,
 #firmen .group-left,
@@ -3432,14 +3468,14 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
 .node-firmen .group-right {
   width: 49%;
 }
-/* line 26, ../sass/sl-components/_firmen-detail.scss */
+/* line 56, ../sass/sl-components/_firmen-detail.scss */
 #firmen .panel-col-first,
 #firmen .group-left,
 .node-firmen .panel-col-first,
 .node-firmen .group-left {
   margin-right: 2%;
 }
-/* line 29, ../sass/sl-components/_firmen-detail.scss */
+/* line 59, ../sass/sl-components/_firmen-detail.scss */
 #firmen .panel-col-first .field-name-field-logo,
 #firmen .group-left .field-name-field-logo,
 .node-firmen .panel-col-first .field-name-field-logo,
@@ -3447,7 +3483,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   margin-bottom: 16px;
   margin-bottom: 1rem;
 }
-/* line 35, ../sass/sl-components/_firmen-detail.scss */
+/* line 65, ../sass/sl-components/_firmen-detail.scss */
 #firmen .panel-col-first .field-name-field-logo img,
 #firmen .panel-col-first .field-name-field-firmen-bild img,
 #firmen .group-left .field-name-field-logo img,
@@ -3461,14 +3497,14 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
   border-radius: 4px;
 }
 @media (max-width: 568px) {
-  /* line 42, ../sass/sl-components/_firmen-detail.scss */
+  /* line 71, ../sass/sl-components/_firmen-detail.scss */
   #firmen .panel-col-first,
   #firmen .group-left,
   .node-firmen .panel-col-first,
   .node-firmen .group-left {
     width: 100%;
   }
-  /* line 47, ../sass/sl-components/_firmen-detail.scss */
+  /* line 75, ../sass/sl-components/_firmen-detail.scss */
   #firmen .panel-col-last,
   #firmen .group-right,
   .node-firmen .panel-col-last,
@@ -3477,7 +3513,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
     margin-right: 0;
   }
 }
-/* line 54, ../sass/sl-components/_firmen-detail.scss */
+/* line 81, ../sass/sl-components/_firmen-detail.scss */
 #firmen .views-label,
 #firmen .label-inline,
 #firmen .label-above,

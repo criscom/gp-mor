@@ -6,9 +6,38 @@ view-display-id-panel_pane_1
 view-dom-id-7147b762c0e385af1939dee4d810de0d
 */
 
+.node-type-firmen {
+
+    .view-mietobjekt-firmen-overview {
+        @include clearfix(); // in order for margins to work for .field-name-field-zugang (Lageplan - Link)
+        .views-row {
+            clear: left;
+        }
+    }
+
+    .views-field-field-zugang-bueroflaechen,
+    .views-field-field-zugang-lagerflaechen {
+        width: 120px !important; // Set a fixed with so that the marking to the information on the right is the same for all digits, ie. "3" and "11"
+        display: block;
+        float: left;
+    }
+    .views-field-field-zugang-ergaenzung {
+        float: left;
+    }
+
+    .field-name-field-zugang {
+        margin: 12px 0; // margin for the Lageplan link
+    }
+}
+
+body.partner {
+    .field-name-field-zugang {
+        display: none; // Hide Lageplan link on Partner pages like Citycom
+    }
+}
+
 #firmen,
-.node-firmen
-{
+.node-firmen {
     @extend %base-background;
     margin-top: 32px;
     h2 {
@@ -23,6 +52,7 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
     .group-right {
         width: 49%;
     }
+
     .panel-col-first,
     .group-left {
         margin-right: 2%;
@@ -37,24 +67,20 @@ view-dom-id-7147b762c0e385af1939dee4d810de0d
             }
         }
     }
-    @include breakpoint($iphone5)
-    {
+    @include breakpoint($iphone5) {
         .panel-col-first,
-        .group-left
-        {
+        .group-left {
             width: 100%;
         }
         .panel-col-last,
-        .group-right
-        {
+        .group-right {
             width: 100%;
             margin-right: 0;
         }
     }
     .views-label,
     .label-inline,
-    .label-above
-    {
+    .label-above {
         font-size: 100%;
 
         color: $black;
