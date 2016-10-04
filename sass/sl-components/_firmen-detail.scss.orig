@@ -38,6 +38,10 @@ body.partner {
 
 #firmen,
 .node-firmen {
+<<<<<<< HEAD
+
+=======
+>>>>>>> 921429e0e9c7145df41ad31e74e0f7f6e9d42c3d
     @extend %base-background;
     margin-top: 32px;
     h2 {
@@ -56,7 +60,11 @@ body.partner {
     .group-right {
         width: 49%;
     }
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 921429e0e9c7145df41ad31e74e0f7f6e9d42c3d
     .panel-col-first,
     .group-left {
         margin-right: 2%;
