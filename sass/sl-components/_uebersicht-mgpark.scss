@@ -18,6 +18,11 @@ view-display-id-block
 view-dom-id-150ed240a5bd96c6ddd29546f66438ab
 */
 
+.panel-pane div.node {
+    margin: 0;
+    padding: 0;
+}
+
 .view-mietobjekt-firmen-overview.view-display-id-block,
 .view-firmen-mietobjekt {
     .views-row {
@@ -75,7 +80,8 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
 }
 
 // Add some margin above mgp Büro Zugänge
-.views-row.B1 {
+.views-row.B1,
+.views-row.b1 {
     &:before {
         font-family: 'Didact Gothic', Arial, 'Open Sans', sans-serif;
         content: "mgp büro";
@@ -85,13 +91,14 @@ view-dom-id-150ed240a5bd96c6ddd29546f66438ab
         margin-bottom: 1rem;
     }
     @include breakpoint($desktop){
-        margin-top: 5rem;
-        margin-top: 80px;
+        margin-top: 2rem;
+        margin-top: 32px;
     }
 }
 
 // Give mgp Büro Zugänge a different hover color
-.views-row.B {
+.views-row.B,
+.views-row.b {
     &1,&2,&3,&4,&5,&6,&7 {
         .views-field-field-firma-mieter > .field-content a:hover {        
             // background-color: darken($header-color,25%);
